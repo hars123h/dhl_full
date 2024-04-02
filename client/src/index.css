@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(to left bottom, #010f3c, #021140, #031345, #051549, #08174e);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  background-color: currentColor;
+  border: 0;
+  color: inherit;
+  margin: 1rem 0 !important;
+  opacity: .25;
+}
+
+hr:not([size]) {
+  height: 1px;
+}
+
+::-webkit-scrollbar,
+.scrollBar::-webkit-scrollbar {
+  width: 0.1px;
+  height: 0.1px;
+}
+
+::-webkit-scrollbar-thumb,
+.scrollBar::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+::-webkit-scrollbar-track,
+.scrollBar::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  background-color: rgba(204, 204, 204, 0.1);
+}
+
+::-webkit-scrollbar-track-piece,
+.scrollBar::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset; /* Set the autofill background to transparent */
+  box-shadow: 0 0 0px 1000px transparent inset;
+  background: transparent;
+}
+
+/* Style for focus state */
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
