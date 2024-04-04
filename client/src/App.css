@@ -2,7 +2,7 @@
     transition: height .3s;
     position: relative;
     z-index: 1;
-    background: rgb(1 15 60);
+    background: #fcfc78;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     width: 90%;
@@ -99,7 +99,7 @@
 }
 
 nav {
-    background-color: rgb(1 15 60);
+    background-color: #fcfc78;
     border-top: 1px solid #fcfc78;
     height: 55px !important;
 }
@@ -510,7 +510,7 @@ button:not(:disabled) {
     min-width: 0;
     position: relative;
     width: 1%;
-    background: rgb(1 15 60) !important;
+    background: #fcfc78 !important;
     padding: 5px;
     margin-top: 10px;
 }
@@ -521,7 +521,7 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
     black-space: nowrap;
-    background: rgb(1 15 60) !important;
+    background: #fcfc78 !important;
 }
 
 option:focus-visible {
