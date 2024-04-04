@@ -29,11 +29,11 @@ const Invite = () => {
                         <header className="h-[50px] leading-[50px] block mb-[10px]">
                             <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                     <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                                 </Link>
 
-                                <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Invite Link</h2>
+                                <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Invite Link</h2>
 
                             </div>
                         </header>
@@ -45,9 +45,9 @@ const Invite = () => {
                             <div className="customborder p-3">
                                 <div className="row pt-2">
                                     <div className="w-10/12">
-                                        <strong className="text-white text-lg">Referral Link:</strong> &nbsp; &nbsp;
+                                        <strong className="text-black text-lg">Referral Link:</strong> &nbsp; &nbsp;
                                         <span id="referral-link">
-                                            <a className="text-white" target="_blank" href="/Auth/Register?REF=130525665">{`${origin}/signup?REF=${userDetails?.user_invite}`}</a>
+                                            <a className="text-black" target="_blank" href="/Auth/Register?REF=130525665">{`${origin}/signup?REF=${userDetails?.user_invite}`}</a>
                                         </span>
                                     </div>
                                     <div className="col-lg-2">
@@ -70,10 +70,10 @@ const Invite = () => {
                         {/* <div className="w-full"> */}
                         <div className="p-2 customborder">
                             <div className="">
-                                <div className="p-2 text-white text-[15px]">
+                                <div className="p-2 text-black text-[15px]">
                                     <div className="row p-3">
-                                        <h6 className="text-white mb-4">Notice</h6>
-                                        <ol className="text-white list-decimal">
+                                        <h6 className="text-black mb-4">Notice</h6>
+                                        <ol className="text-black list-decimal">
                                             <li>Copy your exclusive invitation link or invitation code to invite your friends to join your team.</li>
                                             <li>Invite your friends to join your team and you will get team commission.</li>
                                             <li> After your members join your team, you can get the daily revenue share of all device of your team members:

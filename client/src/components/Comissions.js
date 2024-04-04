@@ -29,11 +29,11 @@ const Comissions = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className="max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed bg-[rgb(1,77,173)] z-[9999] flex flex-wrap items-center  ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] left-0 text-center text-white text-[22px] absolute z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] left-0 text-center text-black text-[22px] absolute z-[2] flex justify-center items-center ">
                                 <LiaAngleLeftSolid size={22} />
                             </Link>
 
-                            <h2 className='left-0 right-0 text-center text-lg font-medium absolute z-[1] flex-1 text-white ' >Commission Records</h2>
+                            <h2 className='left-0 right-0 text-center text-lg font-medium absolute z-[1] flex-1 text-black ' >Commission Records</h2>
 
                         </div>
                     </header>

@@ -119,22 +119,22 @@ const Records = () => {
                     <header className="h-[50px] leading-[50px] block mb-[20px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Device</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Device</h2>
 
                         </div>
                     </header>
 
                     <div className="mx-auto relative z-[1] ">
 
-                        <div className="text-white flex mb-5">
+                        <div className="text-black flex mb-5">
 
-                            <div onClick={() => setToggle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${toggle && 'border-b-2'} `}> Rs Income</div>
+                            <div onClick={() => setToggle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${toggle && 'border-b-2'} `}> Rs Income</div>
 
-                            <div onClick={() => setToggle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${!toggle && 'border-b-2'} `}>Rs Expenditure</div>
+                            <div onClick={() => setToggle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${!toggle && 'border-b-2'} `}>Rs Expenditure</div>
 
                         </div>
                     </div>
@@ -143,20 +143,20 @@ const Records = () => {
                         <div className="col-md-12 col-12">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         {/* <div className="row">
-                                            <h6 className="text-white">Withdrawal record</h6>
+                                            <h6 className="text-black">Withdrawal record</h6>
                                             <hr />
                                         </div> */}
                                         {datalist.length === 0 ?
 
-                                            <p className="text-center text-white p-3">No record found</p>
+                                            <p className="text-center text-black p-3">No record found</p>
                                             :
-                                            <ul className=' text-white'>
+                                            <ul className=' text-black'>
 
                                                 {datalist.sort(compareDates)?.map((data, index) =>
 
-                                                    <li key={index} className='my-5 p-3 rounded-[7px] border border-[blue]'>
+                                                    <li key={index} className='my-5 p-3 rounded-[7px] border border-[#fcfc78]'>
 
                                                         <div className="flex items-center justify-between">
 

@@ -15,28 +15,28 @@ const Navbar = () => {
                 <div className="container-fluid">
 
                     <Link to={'/home'} className="nav-link active">
-                        <div className="text-center flex flex-col items-center text-white">
+                        <div className="text-center flex flex-col items-center text-black">
                             <IoHomeSharp size={12} />
                             <p className="custom-font importantsize">Home</p>
                         </div>
                     </Link>
 
                     <Link to={'/aboutus'} className="nav-link active">
-                        <div className="text-center flex flex-col items-center text-white">
+                        <div className="text-center flex flex-col items-center text-black">
                             <IoMdCube size={12} />
                             <p className="custom-font importantsize">About</p>
                         </div>
                     </Link>
 
                     <Link to={'/invite'} className="nav-link active">
-                        <div className="text-center flex flex-col items-center text-white">
+                        <div className="text-center flex flex-col items-center text-black">
                             <FaRegSnowflake size={12} />
                             <p className="custom-font importantsize">Invite</p>
                         </div>
                     </Link>
 
                     <Link to={'/account'} className="nav-link active">
-                        <div className="text-center flex flex-col items-center text-white">
+                        <div className="text-center flex flex-col items-center text-black">
                             <IoPerson size={12} />
                             <p className="custom-font importantsize">Account</p>
                         </div>

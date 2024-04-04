@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const CustomerCare = () => {
   return (
     <>
-      <div className="p-5 text-white ">
+      <div className="p-5 text-black ">
         <div className="w-full flex items-center justify-center mb-[60px]">
           <img className=" w-[150px]" src={TeamImg} alt="" />
         </div>

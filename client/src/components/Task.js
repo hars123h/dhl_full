@@ -96,11 +96,11 @@ const Task = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Gift</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Gift</h2>
 
                         </div>
                     </header>
@@ -110,10 +110,10 @@ const Task = () => {
                     <div className="w-full">
                         <div className="p-2 customborder">
                             <div className="">
-                                <div className="p-2 text-white">
+                                <div className="p-2 text-black">
                                     <div className="row">
                                         <div className="input-group mb-3">
-                                            <a className="btn btn-outline-primary text-white colorinput" style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} >Code</a>
+                                            <a className="btn btn-outline-primary text-black colorinput" style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} >Code</a>
                                             <input
                                                 type="text"
                                                 name="GiftCode"

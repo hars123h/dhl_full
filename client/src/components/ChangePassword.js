@@ -129,11 +129,11 @@ const ChangePassword = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Change Password</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Change Password</h2>
 
                         </div>
                     </header>
@@ -142,7 +142,7 @@ const ChangePassword = () => {
                         <div className="w-10/12 ">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
                                             <div className="input-group mb-3">
                                                 <input autoComplete='off'
@@ -187,7 +187,7 @@ const ChangePassword = () => {
                                                     name="OtpCode"
                                                     style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }}
                                                 />
-                                                <button disabled={seconds > 0 || minutes > 0} onClick={handleMessage} style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0 }} className="btn btn-outline-primary text-white colorinput" id="getOtpButton">
+                                                <button disabled={seconds > 0 || minutes > 0} onClick={handleMessage} style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0 }} className="btn btn-outline-primary text-black colorinput" id="getOtpButton">
                                                     {seconds > 0 || minutes > 0 ?
                                                         <>
                                                             {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}

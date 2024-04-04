@@ -53,18 +53,18 @@ const DepositRecords = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px] bg-black">
                         <div className="bg-black max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center  ">
 
-                            <Link to={'/home'} className="w-[60px] h-[50px] left-0 text-center text-white text-[22px] absolute z-[2] flex justify-center items-center ">
+                            <Link to={'/home'} className="w-[60px] h-[50px] left-0 text-center text-black text-[22px] absolute z-[2] flex justify-center items-center ">
                                 <LiaAngleLeftSolid size={22} />
                             </Link>
 
-                            <h2 className='left-0 right-0 text-center text-lg font-medium absolute z-[1] flex-1 text-white ' >Deposit Records</h2>
+                            <h2 className='left-0 right-0 text-center text-lg font-medium absolute z-[1] flex-1 text-black ' >Deposit Records</h2>
 
                         </div>
                     </header>
 
                     <div className="mx-auto relative z-[1]">
                         <div className="m-[5px]">
-                            <ul className='px-5 text-white'>
+                            <ul className='px-5 text-black'>
 
                                 {recharge_list.reverse()?.map((data, index) =>
 

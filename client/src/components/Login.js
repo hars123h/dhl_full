@@ -140,7 +140,7 @@ const Login = () => {
 
                             <div className="l-left">
 
-                                <div className="l-title font-bold text-white text-3xl">Hello!</div>
+                                <div className="l-title font-bold text-black text-3xl">Hello!</div>
 
                                 <div className="l-desc text-[10px] font-semibold whitespace-nowrap text-[#666]">Welcome to the Dnex!</div>
 
@@ -157,7 +157,7 @@ const Login = () => {
 
                         <div className="content relative z-[1] ">
 
-                            <div className="lg-t text-lg font-bold text-white">Welcome back</div>
+                            <div className="lg-t text-lg font-bold text-black">Welcome back</div>
 
                             <div className="sign_login sign_login2 relative z-[2] mt-4">
 
@@ -166,7 +166,7 @@ const Login = () => {
                                     <div className="uilist_div py-5 account h-8 px-3 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full justify-between">
 
                                         <div className="flex items-center">
-                                            <MdPhoneIphone className='text-white' size={19} />
+                                            <MdPhoneIphone className='text-black' size={19} />
                                             {/* <img className='w-[19px]' src={phoneimg} alt="" /> */}
 
                                             <span className="pre  ml-1 font-medium ">+91</span>
@@ -177,7 +177,7 @@ const Login = () => {
                                                 placeholder="Phone Number"
                                                 name="pattern"
                                                 maxLength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
                                                 autoComplete='off'
                                             />
                                         </div>
@@ -187,7 +187,7 @@ const Login = () => {
                                     <div className="uilist_div account h-8 py-5 px-3 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full justify-between">
 
                                         <div className="flex items-center">
-                                            <IoLockClosed className='text-white' size={19} />
+                                            <IoLockClosed className='text-black' size={19} />
                                             {/* <img className='w-[19px]' src={password} alt="" /> */}
 
                                             <input autoComplete='off'
@@ -196,7 +196,7 @@ const Login = () => {
                                                 placeholder="Password"
                                                 name="pattern"
                                                 maxLength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
 
                                             />
                                         </div>
@@ -215,18 +215,18 @@ const Login = () => {
 
                                 <p className=" text-center mt-[14px]">
 
-                                    <button onClick={handleSignIn} className='inline-block w-11/12 leading-3 rounded-full h-10 text-white text-center font-bold px-5 btn btn-primary' >login in</button>
+                                    <button onClick={handleSignIn} className='inline-block w-11/12 leading-3 rounded-full h-10 text-black text-center font-bold px-5 btn btn-primary' >login in</button>
 
                                 </p>
 
-                                <p className="register_btn mt-8 mb-3 text-white " >
+                                <p className="register_btn mt-8 mb-3 text-black " >
                                     <Link to={'/forgotpassword'} >Forgot Password?</Link>
                                 </p>
 
                             </div>
                         </div>
 
-                        <div className='text-center text-white'>
+                        <div className='text-center text-black'>
                             <p className="footer">
                                 <Link to={'/signup'} >Create Account</Link>
                             </p>

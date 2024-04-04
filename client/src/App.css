@@ -10,7 +10,7 @@
     border-radius: 14px;
     /* margin-top: -100px; */
     padding: 16px 12px;
-    border: 1px solid blue;
+    border: 1px solid #fcfc78;
 }
 
 .verfy_title {
@@ -19,7 +19,7 @@
 
 .hello {
     background: none;
-    color: white;
+    color: black;
     border: 1px solid #ced4da;
 }
 
@@ -50,7 +50,7 @@
 
 .footer2 a {
     font-size: 12.8px;
-    background: white;
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -64,13 +64,13 @@
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    color: white;
+    color: black;
     font-weight: 700;
 }
 
 .register_btn a {
     font-size: 9.6px;
-    background: white;
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -82,7 +82,7 @@
     margin: 0 auto;
     margin-top: 24px;
     bottom: 1rem;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@
 
 .footer a {
     font-size: 12.8px;
-    background: white;
+    background: black;
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 700;
@@ -100,7 +100,7 @@
 
 nav {
     background-color: rgb(1 15 60);
-    border-top: 1px solid blue;
+    border-top: 1px solid #fcfc78;
     height: 55px !important;
 }
 
@@ -165,16 +165,16 @@ nav {
 }
 
 .btnfix a {
-    background-color: #07184f;
+    background-color: #fcfc78;
     border: medium none;
-    color: #FFFFFF;
+    color: black;
     float: left;
     position: fixed;
     top: 500px;
     border-radius: 10px;
     /* padding: 3px; */
     text-decoration: none;
-    border: 1px solid blue;
+    border: 1px solid #fcfc78;
 }
 
 .row {
@@ -204,8 +204,8 @@ nav {
 }
 
 .customborder {
-    border: 1px solid blue;
-    background-color: #07184f;
+    border: 1px solid #fcfc78;
+    background-color: #fcfc78;
     border-radius: 7px;
     -webkit-box-shadow: 1px 2px 11px 3px #000000;
     box-shadow: 1px 2px 11px 3px #000000;
@@ -302,7 +302,7 @@ tr {
 .colorinput {
     background: none;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 .tab-content>.tab-pane {
@@ -348,7 +348,7 @@ tr {
     justify-content: center;
     text-align: center;
     transition: width .6s ease;
-    white-space: nowrap;
+    black-space: nowrap;
 }
 
 .bg-danger {
@@ -445,7 +445,7 @@ button:not(:disabled) {
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: rgba(59, 125, 221, 1) !important;
-    color: white !important;
+    color: black !important;
 }
 
 .tab {
@@ -482,7 +482,7 @@ button:not(:disabled) {
     border-top-right-radius: 0.2rem;
     margin-bottom: -1px;
     font-size: 10px;
-    color: white;
+    color: black;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -500,7 +500,7 @@ button:not(:disabled) {
 }
 
 .tab .nav-tabs .nav-link.active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     /* color: #343a40; */
 }
 
@@ -520,7 +520,7 @@ option {
     display: block;
     min-height: 1.2em;
     padding: 0px 2px 1px;
-    white-space: nowrap;
+    black-space: nowrap;
     background: rgb(1 15 60) !important;
 }
 

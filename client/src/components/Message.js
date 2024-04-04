@@ -29,11 +29,11 @@ const Message = () => {
                         <header className="h-[50px] leading-[50px] block mb-[10px]">
                             <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                     <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                                 </Link>
 
-                                <h2 className=' text-center text-lg font-medium z-[1] text-white ' >FAQ</h2>
+                                <h2 className=' text-center text-lg font-medium z-[1] text-black ' >FAQ</h2>
 
                             </div>
                         </header>
@@ -44,12 +44,12 @@ const Message = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
                                             <div className="accordion" id="accordionExample">
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header bg-primary" id="headingOne ">
-                                                        <button onClick={() => setKeyToOne('0')} className="accordion-button bg-primary text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                        <button onClick={() => setKeyToOne('0')} className="accordion-button bg-primary text-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                             1. Introduction of BIT Mining
                                                         </button>
                                                     </h2>
@@ -60,7 +60,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingTwo">
-                                                        <button onClick={() => setKeyToOne('1')} className="accordion-button bg-primary text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <button onClick={() => setKeyToOne('1')} className="accordion-button bg-primary text-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                             2. What are the advantages of the company?
                                                         </button>
                                                     </h2>
@@ -71,7 +71,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('2')} className="accordion-button bg-primary text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <button onClick={() => setKeyToOne('2')} className="accordion-button bg-primary text-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                             3. How to mine Bitcoin?
                                                         </button>
                                                     </h2>
@@ -83,7 +83,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('3')} className="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                        <button onClick={() => setKeyToOne('3')} className="accordion-button collapsed bg-primary text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                                             4. How about mining performance?
                                                         </button>
                                                     </h2>
@@ -95,7 +95,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('4')} className="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                                        <button onClick={() => setKeyToOne('4')} className="accordion-button collapsed bg-primary text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                                             5. Where are your mines divided into?
                                                         </button>
                                                     </h2>
@@ -107,7 +107,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('5')} className="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                        <button onClick={() => setKeyToOne('5')} className="accordion-button collapsed bg-primary text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                                             6. What does the cost of mining machine operation include?
                                                         </button>
                                                     </h2>
@@ -119,7 +119,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('6')} className="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                                        <button onClick={() => setKeyToOne('6')} className="accordion-button collapsed bg-primary text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                                             7. When will I receive my proceeds??
                                                         </button>
                                                     </h2>
@@ -131,7 +131,7 @@ const Message = () => {
                                                 </div>
                                                 <div className="accordion-item bg-primary">
                                                     <h2 className="accordion-header" id="headingThree">
-                                                        <button onClick={() => setKeyToOne('7')} className="accordion-button collapsed bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                                        <button onClick={() => setKeyToOne('7')} className="accordion-button collapsed bg-primary text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                                             8. The vision of the company
                                                         </button>
                                                     </h2>

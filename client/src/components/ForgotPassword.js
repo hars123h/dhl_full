@@ -193,7 +193,7 @@ const ForgotPassword = () => {
 
                         <div className="content relative z-[1] ">
 
-                            <div className="lg-t text-lg font-bold text-white ">Find the password</div>
+                            <div className="lg-t text-lg font-bold text-black ">Find the password</div>
 
                             <div className="sign_login sign_login2 relative z-[2] mt-4">
 
@@ -202,7 +202,7 @@ const ForgotPassword = () => {
                                     <div className="uilist_div account h-8 px-3 py-5  flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full">
 
                                         {/* <img className='w-[19px]' src={phoneimg} alt="" /> */}
-                                        <MdPhoneIphone className='text-white' size={19} />
+                                        <MdPhoneIphone className='text-black' size={19} />
 
 
                                         <span className="pre  ml-1 font-medium ">+91</span>
@@ -213,7 +213,7 @@ const ForgotPassword = () => {
                                             placeholder="Phone Number"
                                             name="pattern"
                                             maxlength="10"
-                                            className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                            className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
 
                                         />
 
@@ -221,7 +221,7 @@ const ForgotPassword = () => {
 
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full">
 
-                                        <IoShieldCheckmark className='text-white' size={19} />
+                                        <IoShieldCheckmark className='text-black' size={19} />
                                         {/* <img className='w-[19px]' src={sms} alt="" /> */}
 
                                         <input autoComplete='off'
@@ -230,7 +230,7 @@ const ForgotPassword = () => {
                                             placeholder="Verification"
                                             name="pattern"
                                             maxlength="10"
-                                            className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                            className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
 
                                         />
 
@@ -249,7 +249,7 @@ const ForgotPassword = () => {
 
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full">
 
-                                        <IoLockClosed className='text-white' size={19} />
+                                        <IoLockClosed className='text-black' size={19} />
 
                                         {/* <img className='w-[19px]' src={password} alt="" /> */}
 
@@ -259,7 +259,7 @@ const ForgotPassword = () => {
                                             placeholder="Password"
                                             name="pattern"
                                             maxlength="10"
-                                            className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                            className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
 
                                         />
 
@@ -276,7 +276,7 @@ const ForgotPassword = () => {
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full">
 
                                         {/* <img className='w-[19px]' src={password} alt="" /> */}
-                                        <IoLockClosed className='text-white' size={19} />
+                                        <IoLockClosed className='text-black' size={19} />
 
 
                                         <input autoComplete='off'
@@ -285,7 +285,7 @@ const ForgotPassword = () => {
                                             placeholder="Confirm New Password"
                                             name="pattern"
                                             maxlength="10"
-                                            className='bg-transparent border-transparent outline-none  text-white pl-[10px] flex-grow'
+                                            className='bg-transparent border-transparent outline-none  text-black pl-[10px] flex-grow'
 
                                         />
 
@@ -303,7 +303,7 @@ const ForgotPassword = () => {
 
                                 <p className=" text-center mt-[14px]">
 
-                                    <button onClick={handleRegister} className='inline-block w-11/12 leading-3 rounded-full h-9 text-white text-center font-bold px-5 btn btn-primary' >Submit</button>
+                                    <button onClick={handleRegister} className='inline-block w-11/12 leading-3 rounded-full h-9 text-black text-center font-bold px-5 btn btn-primary' >Submit</button>
 
                                 </p>
 

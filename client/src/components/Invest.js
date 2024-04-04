@@ -29,8 +29,8 @@ const Invest = () => {
 
 
     const [stable, setStable] = useState('-top-[5px] bg-white font-bold text-[#0aa496] text-xl')
-    const [welfare, setWelfare] = useState('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
-    const [activity, setActivity] = useState('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
+    const [welfare, setWelfare] = useState('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
+    const [activity, setActivity] = useState('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
     const [activelist, setActivelist] = useState('stable')
     const [totalEarn, setTotalEarn] = useState(0)
 
@@ -39,17 +39,17 @@ const Invest = () => {
         setActivelist(name)
         if (name === 'stable') {
             setStable('-top-[5px] bg-white font-bold text-[#0aa496] text-xl')
-            setWelfare('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
-            setActivity('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
+            setWelfare('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
+            setActivity('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
         }
         else if (name === 'welfare') {
-            setStable('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
+            setStable('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
             setWelfare('-top-[5px] bg-white font-bold text-[#0aa496] text-xl')
-            setActivity('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
+            setActivity('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
         }
         else {
-            setStable('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
-            setWelfare('bg-[rgba(255,255,255,0.3)] text-white text-lg ')
+            setStable('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
+            setWelfare('bg-[rgba(255,255,255,0.3)] text-black text-lg ')
             setActivity('-top-[5px] bg-white font-bold text-[#0aa496] text-xl')
         }
     }
@@ -134,10 +134,10 @@ const Invest = () => {
 
         if (toogle === 'login') {
             setLogin('bg-[#0ef] text-black')
-            setPin('bg-[#242424] text-white')
+            setPin('bg-[#242424] text-black')
         }
         else {
-            setLogin('bg-[#242424] text-white')
+            setLogin('bg-[#242424] text-black')
             setPin('bg-[#0ef] text-black')
         }
 
@@ -153,7 +153,7 @@ const Invest = () => {
         <>
             <Navbar />
 
-            <div className="mx-3 mt-5 mb-36 text-white bg-[#003136]">
+            <div className="mx-3 mt-5 mb-36 text-black bg-[#003136]">
 
                 <div className="rounded-lg ">
 
@@ -219,7 +219,7 @@ const Invest = () => {
                                             <>
                                                 {/* <div className="my-[5px] border-x-2 bg-white border-white border-b-2  rounded-[7px]" key={index}>
 
-                                                <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-white">Plan Details</div>
+                                                <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-black">Plan Details</div>
                                                 <div className='p-3'>
                                                     <div className='mb-1'>earn: &#8377;{DateDifference(new Date(element.date_purchased), new Date(element.date_till_rewarded)) * element.quantity * element.plan_daily_earning}</div>
                                                     <div className='mb-1'>total revenue: {element.plan_daily_earning * element.plan_cycle}</div>
@@ -296,7 +296,7 @@ const Invest = () => {
                                             <>
                                                 {/* <div className="my-[5px] border-x-2 bg-white border-white border-b-2  rounded-[7px]" key={index}>
 
-                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-white">Plan Details</div>
+                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-black">Plan Details</div>
                                                     <div className='p-3'>
                                                         <div className='mb-1'>earn: &#8377;{DateDifference(new Date(element.date_purchased), new Date(element.date_till_rewarded)) * element.quantity * element.plan_daily_earning}</div>
                                                         <div className='mb-1'>total revenue: {element.plan_daily_earning * element.plan_cycle}</div>

@@ -34,7 +34,7 @@ const AboutUs = () => {
             <div className="px-3 mt-1 flex-col mb-20" style={{ width: '100vw' }}>
                 <div className="mb-5 mt-3">
 
-                    <h4 class="text-center text-white mb-5">About</h4>
+                    <h4 class="text-center text-black mb-5">About</h4>
 
                     <div className="row ">
                         <div className="col-span-12">
@@ -44,9 +44,9 @@ const AboutUs = () => {
                                     <iframe width={dim[0]} height={dim[1]} src="https://www.youtube.com/embed/MpcMXUtmV8I?si=ZiVZjJAB68CFLr4t&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div> */}
 
-                                <h3 class="text-center text-white mt-4 mb-5 ">DHL</h3>
+                                <h3 class="text-center text-black mt-4 mb-5 ">DHL</h3>
 
-                                <p className='text-white'>
+                                <p className='text-black'>
                                     <br />
                                     Today, DHL is the world's leading logistics company. Our 600,000 people in over 220 countries and territories work every day to help you cross borders, reach new markets and grow your business. Or simply send a letter to your loved ones.                                       <br /><br />
 

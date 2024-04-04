@@ -38,23 +38,23 @@ const BankCard = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Bank</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Bank</h2>
 
                         </div>
                     </header>
 
-                    <p className="text-white mb-5">My Bank Account</p>
+                    <p className="text-black mb-5">My Bank Account</p>
 
                     {userDetails?.bank_details ?
                         <div className="row mb-3">
                             <div className="w-full">
                                 <div className="p-2 customborder">
                                     <div className="">
-                                        <div className="p-2 text-white">
+                                        <div className="p-2 text-black">
                                             <div className="row">
                                                 <div className="mb-3">
 
@@ -80,7 +80,7 @@ const BankCard = () => {
                             <div className="w-full">
                                 <div className="p-2 customborder">
                                     <div className="">
-                                        <div className="p-2 text-white">
+                                        <div className="p-2 text-black">
                                             <div className="row">
                                                 <p className="text-center p-3">No bank information available.</p>
                                                 <div className="mb-2  block">

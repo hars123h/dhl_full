@@ -90,11 +90,11 @@ const Deposit = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Recharge</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Recharge</h2>
 
                         </div>
                     </header>
@@ -103,10 +103,10 @@ const Deposit = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
                                             <div className="input-group mb-3">
-                                                <button style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} className="btn btn-outline-primary text-white colorinput">₹</button>
+                                                <button style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} className="btn btn-outline-primary text-black colorinput">₹</button>
                                                 <input autoComplete='off'
                                                     onChange={e => { setDeposit(e.target.value); setSelected() }}
                                                     style={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0 }}
@@ -137,22 +137,22 @@ const Deposit = () => {
                         <div className="w-full">
                             <div className="customborder p-2">
                                 <div className="p-2 mb-2">
-                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                        <label className="text-white text-[15px] flex items-center">
+                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                        <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />UPI Channel-1
                                         </label>
                                         <span><input autoComplete='off' type="radio" defaultChecked className="bankOption" name="bankOption" value="1" onChange={(e) => setUpichannel(e.target.value)} /></span>
 
                                     </div>
-                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                        <label className="text-white text-[15px] flex items-center">
+                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                        <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />UPI Channel-2
                                         </label>
                                         <span><input autoComplete='off' type="radio" className="bankOption" name="bankOption" value="2" onChange={(e) => setUpichannel(e.target.value)} /></span>
                                     </div>
 
-                                    {/* <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                        <label className="text-white text-[15px] flex items-center">
+                                    {/* <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                        <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />Pay Using our Crypto Channel-3
                                         </label>
                                         <span><input autoComplete='off' type="radio" className="bankOption1" name="bankOption" value="3" onChange={(e) => setUpichannel(e.target.value)} /></span>
@@ -162,20 +162,20 @@ const Deposit = () => {
                                 {/* <div id="crypto-details" className="mb-1" style="display: none;">
                                     <div className="row justify-content-center">
                                         <div className="col-md-4 text-center customborder p-3 mb-3 mx-2">
-                                            <h4 className="text-white">paytm upi id </h4>
+                                            <h4 className="text-black">paytm upi id </h4>
 
                                             <div className="mb-2">
                                                 <img src="/uploads/05aca3e6-f859-487d-908f-e13e49b44893.png" width="200" className="img-fluid">
                                             </div>
-                                            <span className="fs-4 text-white mb-2">Payment Address</span>
+                                            <span className="fs-4 text-black mb-2">Payment Address</span>
                                             <div className="input-group mb-2">
                                                 <input autoComplete='off' type="text" className="form-control" value="paytmqrg9p0bdgrr7@paytm" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" id="wallet-address-input">
-                                                    <button className="btn btn-outline-secondary text-white" type="button" id="button-addon2" onclick="copyToClipboard('wallet-address-input')"><i className="bi bi-copy"></i></button>
+                                                    <button className="btn btn-outline-secondary text-black" type="button" id="button-addon2" onclick="copyToClipboard('wallet-address-input')"><i className="bi bi-copy"></i></button>
                                             </div>
 
                                             <div className="mb-2">
-                                                <label className="fs-4 text-white">Pay Amount</label>
-                                                <h4 className="text-white">600.00</h4>
+                                                <label className="fs-4 text-black">Pay Amount</label>
+                                                <h4 className="text-black">600.00</h4>
                                             </div>
                                             <span className="text-danger">Note<b>*</b>: Please Pay only paytm  token</span>
                                         </div>
@@ -185,7 +185,7 @@ const Deposit = () => {
                         </div>
                     </div>
 
-                    <p className="text-white text-center mt-3 mb-4"><small>The minimum recharge amount is  350Rs</small></p>
+                    <p className="text-black text-center mt-3 mb-4"><small>The minimum recharge amount is  350Rs</small></p>
 
                     <div className="text-center mb-5">
                         <button onClick={handleRecharge} className="btn btn-primary">Recharge</button>

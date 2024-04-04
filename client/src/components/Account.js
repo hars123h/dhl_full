@@ -79,18 +79,18 @@ const Account = () => {
 
                                     <div className="flex space-x-4 items-center">
 
-                                        <img className="rounded-circle rounded mt-2 mb-2 " style={{ border: '1px solid blue' }} src={accountImg} alt="Placeholder" width="50" height="50" />
+                                        <img className="rounded-circle rounded mt-2 mb-2 " style={{ border: '1px solid #fcfc78' }} src={accountImg} alt="Placeholder" width="50" height="50" />
 
-                                        <b className="text-white fs-4">{userDetails?.mobno} &nbsp;<span className="text-red-400">L{userDetails?.vipLevel}</span></b>
+                                        <b className="text-black fs-4">{userDetails?.mobno} &nbsp;<span className="text-red-400">L{userDetails?.vipLevel}</span></b>
 
                                     </div>
 
-                                    <b className=""><small className="text-white">Dnex</small></b>
+                                    <b className=""><small className="text-black">Dnex</small></b>
 
                                 </div>
                             </div>
                             <div className=" flex text-center items-center">
-                                <span className="text-white   p-1 fs-4" style={{ borderRadius: '5px', backgroundColor: '#07184f', border: '1px solid blue' }}>
+                                <span className="text-black   p-1 fs-4" style={{ borderRadius: '5px', backgroundColor: '#fcfc78', border: '1px solid #fcfc78' }}>
                                     Score: {(userDetails?.vipLevel) * 20}
                                     <FaRegGem className='mx-auto' />
                                 </span>
@@ -105,8 +105,8 @@ const Account = () => {
                         <div className="col-12">
                             <div className="customborder p-2 mb-3">
                                 <div className="flex justify-between items-center">
-                                    <div className="text-center text-white p-2">
-                                        <h5 className="text-white">₹ {(userDetails?.recharge_amount)?.toFixed(2)}</h5>
+                                    <div className="text-center text-black p-2">
+                                        <h5 className="text-black">₹ {(userDetails?.recharge_amount)?.toFixed(2)}</h5>
                                         <span className="text-[10px] flex items-end"><IoWalletOutline size={25} /> &nbsp;&nbsp; Recharge Wallet</span>
                                     </div>
                                 </div>
@@ -114,28 +114,28 @@ const Account = () => {
                                 <div className="row mb-3">
                                     <div className="col-lg-4 col-4">
                                         <div className="text-center">
-                                            <h5 className="text-white">₹ {(userDetails?.balance)?.toFixed(2)}</h5>
-                                            <span className="text-white text-[10px]">Wallet Balance</span>
+                                            <h5 className="text-black">₹ {(userDetails?.balance)?.toFixed(2)}</h5>
+                                            <span className="text-black text-[10px]">Wallet Balance</span>
                                         </div>
 
                                     </div>
                                     {/* <div className="col-lg-4 col-4">
                                         <div className="text-center">
-                                            <h5 className="text-white">₹ 0.00</h5>
-                                            <span className="text-white textsizeall">Today profit</span>
+                                            <h5 className="text-black">₹ 0.00</h5>
+                                            <span className="text-black textsizeall">Today profit</span>
                                         </div>
                                     </div> */}
                                     {/* <div className="col-lg-4 col-4">
                                         <div className="text-center">
-                                            <h5 className="text-white">₹ {(userDetails?.earning)?.toFixed(2)}</h5>
-                                            <span className="text-white textsizeall">Total Profit</span>
+                                            <h5 className="text-black">₹ {(userDetails?.earning)?.toFixed(2)}</h5>
+                                            <span className="text-black textsizeall">Total Profit</span>
                                         </div>
                                     </div> */}
                                 </div>
                             </div>
                             <div className="row justify-between">
                                 <div className="" style={{ width: '50%' }}>
-                                    <Link to={'/widthdrawlrecords'} className="btn btn-outline-primary w-full text-white" style={{ color: 'white' }} >Withdrawal</Link>
+                                    <Link to={'/widthdrawlrecords'} className="btn btn-outline-primary w-full text-black" style={{ color: 'white' }} >Withdrawal</Link>
                                 </div>
                                 <div className="w-1/2" style={{ width: '50%' }}>
                                     <Link to={'/deposit'} className="btn btn-primary w-full" >Recharge</Link>
@@ -154,8 +154,8 @@ const Account = () => {
                                     <div className="" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/Workingdevice'} style={{ textDecoration: 'none' }} className='flex flex-col items-center'>
-                                                <span className="text-white"><PiDevicesLight size={27} /></span>
-                                                <p className="text-white text-[10px]">My Device</p>
+                                                <span className="text-black"><PiDevicesLight size={27} /></span>
+                                                <p className="text-black text-[10px]">My Device</p>
                                             </Link>
                                         </div>
 
@@ -164,8 +164,8 @@ const Account = () => {
                                     <div className="" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/team'} href="/Member/Team" className='flex flex-col items-center'>
-                                                <span className="text-white"><IoPeopleOutline size={27} /></span>
-                                                <p className="text-white text-[10px]">My Team</p>
+                                                <span className="text-black"><IoPeopleOutline size={27} /></span>
+                                                <p className="text-black text-[10px]">My Team</p>
                                             </Link>
                                         </div>
 
@@ -173,8 +173,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/invite'} className='flex flex-col items-center'>
-                                                <span className="text-white"><LuLink className='rotate-45' size={27} /></span>
-                                                <p className="text-white text-[10px]">Invite</p>
+                                                <span className="text-black"><LuLink className='rotate-45' size={27} /></span>
+                                                <p className="text-black text-[10px]">Invite</p>
                                             </Link>
                                         </div>
 
@@ -182,8 +182,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/gift'} href="/Member/Gift" className='flex flex-col items-center'>
-                                                <span className="text-white"><FaGift size={27} /></span>
-                                                <p className="text-white text-[10px]">Gift</p>
+                                                <span className="text-black"><FaGift size={27} /></span>
+                                                <p className="text-black text-[10px]">Gift</p>
                                             </Link>
                                         </div>
                                     </div>
@@ -192,8 +192,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/records'} className='flex flex-col items-center'>
-                                                <span className="text-white"><BsCardList size={27} /></span>
-                                                <p className="text-white text-[10px]">Record</p>
+                                                <span className="text-black"><BsCardList size={27} /></span>
+                                                <p className="text-black text-[10px]">Record</p>
                                             </Link>
                                         </div>
 
@@ -201,8 +201,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/bankCard'} href="/Member/Bank" className='flex flex-col items-center'>
-                                                <span className="text-white"><BsBank size={27} /></span>
-                                                <p className="text-white text-[10px]">Bank</p>
+                                                <span className="text-black"><BsBank size={27} /></span>
+                                                <p className="text-black text-[10px]">Bank</p>
                                             </Link>
                                         </div>
 
@@ -210,8 +210,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/changepassword'} className='flex flex-col items-center'>
-                                                <span className="text-white"><BsFileLockFill size={27} /></span>
-                                                <p className="text-white text-[10px]">Password</p>
+                                                <span className="text-black"><BsFileLockFill size={27} /></span>
+                                                <p className="text-black text-[10px]">Password</p>
                                             </Link>
                                         </div>
 
@@ -219,8 +219,8 @@ const Account = () => {
                                     <div className="col-lg-3 col-3" style={{ width: '25%' }}>
                                         <div className="text-center">
                                             <Link to={'/vip'} href="/Member/VipUpgrade" className='flex flex-col items-center'>
-                                                <span className="text-white"><IoReload size={27} /></span>
-                                                <p className="text-white text-[10px]">Vip Upgrade</p>
+                                                <span className="text-black"><IoReload size={27} /></span>
+                                                <p className="text-black text-[10px]">Vip Upgrade</p>
                                             </Link>
                                         </div>
 
@@ -238,16 +238,16 @@ const Account = () => {
                                 <div className="p-2">
 
                                     {/* <a href="/Member/Rule">
-                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                            <p className="text-white textsizeall mb-4 "><BsArrowUpCircle className="inline mr-2 rotate-45 text-[blue]" size={10} />Rules</p>
-                                            <span><TfiAngleRight className='text-white' size={18} /></span>
+                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                            <p className="text-black textsizeall mb-4 "><BsArrowUpCircle className="inline mr-2 rotate-45 text-[#fcfc78]" size={10} />Rules</p>
+                                            <span><TfiAngleRight className='text-black' size={18} /></span>
                                         </div>
                                     </a> */}
 
                                     <Link to={'/FAQ'} href="/Member/FAQ">
-                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                            <p className="text-white  textsizeall mb-4"><CiCircleQuestion className="inline mr-2 text-[blue]" size={10} /> FAQ</p>
-                                            <span><TfiAngleRight className='text-white' size={18} /></span>
+                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                            <p className="text-black  textsizeall mb-4"><CiCircleQuestion className="inline mr-2 text-[#fcfc78]" size={10} /> FAQ</p>
+                                            <span><TfiAngleRight className='text-black' size={18} /></span>
                                         </div>
                                     </Link>
 
@@ -256,14 +256,14 @@ const Account = () => {
                                         download="Dnex"
                                         target="_blank"
                                         rel="noopener noreferrer" 
-                                        className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                        <p className="text-white  textsizeall mb-4"><BsArrowUpCircle className=" rotate-180 inline mr-2 text-[blue]" size={10} /> App Download</p>
-                                        <span><TfiAngleRight className='text-white' size={18} /></span>
+                                        className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                        <p className="text-black  textsizeall mb-4"><BsArrowUpCircle className=" rotate-180 inline mr-2 text-[#fcfc78]" size={10} /> App Download</p>
+                                        <span><TfiAngleRight className='text-black' size={18} /></span>
                                     </a>
 
-                                    <div onClick={handelSignOut} className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid blue' }}>
-                                        <p href="#" className="text-white textsizeall mb-4"> <IoPower className="inline mr-2 text-[blue]" size={10} /> Sign out</p>
-                                        <span><TfiAngleRight className='text-white' size={18} /></span>
+                                    <div onClick={handelSignOut} className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                        <p href="#" className="text-black textsizeall mb-4"> <IoPower className="inline mr-2 text-[#fcfc78]" size={10} /> Sign out</p>
+                                        <span><TfiAngleRight className='text-black' size={18} /></span>
                                     </div>
 
                                 </div>

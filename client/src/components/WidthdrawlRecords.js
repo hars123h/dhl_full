@@ -53,11 +53,11 @@ const WidthdrawlRecords = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Withdrawal</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Withdrawal</h2>
 
                         </div>
                     </header>
@@ -66,7 +66,7 @@ const WidthdrawlRecords = () => {
                         ₹ {userDetails?.balance?.toFixed(2)}
                     </h6>
 
-                    <p className="text-center text-white mb-4">Balance(Rs)</p>
+                    <p className="text-center text-black mb-4">Balance(Rs)</p>
 
                     <div className="text-center mb-3">
                         <Link style={{ fontSize: '.75rem', padding: '0.15rem 0.5rem', borderRadius: '5px' }} to={'/widthdrawl'} className="btn btn-primary w-fit" >Withdrawal</Link>
@@ -78,20 +78,20 @@ const WidthdrawlRecords = () => {
                         <div className="col-md-12 col-12">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
-                                            <h6 className="text-white">Withdrawal record</h6>
+                                            <h6 className="text-black">Withdrawal record</h6>
                                             <hr />
                                         </div>
                                         {withdrawal_list.length === 0 ?
 
-                                            <p className="text-center text-white p-3">No record found</p>
+                                            <p className="text-center text-black p-3">No record found</p>
                                             :
-                                            <ul className='px-5 text-white'>
+                                            <ul className='px-5 text-black'>
 
                                                 {withdrawal_list.reverse()?.map((data, index) =>
 
-                                                    <li key={index} className='my-[5px] p-3 rounded-[7px] border border-[blue]'>
+                                                    <li key={index} className='my-[5px] p-3 rounded-[7px] border border-[#fcfc78]'>
 
                                                         <div className="flex items-center justify-between">
 

@@ -155,11 +155,11 @@ const BankCardAdd = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Edit bank account</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Edit bank account</h2>
 
                         </div>
                     </header>
@@ -168,7 +168,7 @@ const BankCardAdd = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
                                             <div className="input-group mb-3">
                                                 <input
@@ -235,7 +235,7 @@ const BankCardAdd = () => {
                                                     name="OtpCode"
                                                     style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }}
                                                 />
-                                                <button disabled={seconds > 0 || minutes > 0} onClick={handleMessage} style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0 }} className="btn btn-outline-primary text-white colorinput" id="getOtpButton">
+                                                <button disabled={seconds > 0 || minutes > 0} onClick={handleMessage} style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0 }} className="btn btn-outline-primary text-black colorinput" id="getOtpButton">
                                                     {seconds > 0 || minutes > 0 ?
                                                         <>
                                                             {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}
@@ -248,7 +248,7 @@ const BankCardAdd = () => {
                                             {/* <div className="input-group mb-3">
 
                                                 <input onChange={(e) => setOtp(e.target.value)} style={{ borderBottomRightRadius: 0, borderTopRightRadius: 0 }} type="text" name="enterOpt" className="form-control p-3 colorinput" placeholder="Please input otp code" />
-                                                <button style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0, marginLeft: '-1px ' }} className="btn btn-outline-primary text-white colorinput" type="button" id="getOtpButton">Get OTP</button>
+                                                <button style={{ borderBottomLeftRadius: 0, borderTopLeftRadius: 0, marginLeft: '-1px ' }} className="btn btn-outline-primary text-black colorinput" type="button" id="getOtpButton">Get OTP</button>
                                             </div> */}
                                             <div className="mb-2 text-center">
                                                 <button onClick={handleSubmit} style={{ fontSize: '.75rem', padding: '0.15rem 0.5rem', borderRadius: '5px' }} className="btn-primary btn-lg fw-bold mx-auto d-block btn-sm">Save bank account</button>

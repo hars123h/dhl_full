@@ -67,11 +67,11 @@ const Vip = () => {
                         <header className="h-[50px] leading-[50px] block mb-[10px]">
                             <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                                <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                     <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                                 </Link>
 
-                                <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Vip Upgrade</h2>
+                                <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Vip Upgrade</h2>
 
                             </div>
                         </header>
@@ -91,9 +91,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 1</h6>
+                                                    <h6 className="text-black text-center">Level 1</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -140,9 +140,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 2</h6>
+                                                    <h6 className="text-black text-center">Level 2</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -189,9 +189,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 3</h6>
+                                                    <h6 className="text-black text-center">Level 3</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -238,9 +238,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 4</h6>
+                                                    <h6 className="text-black text-center">Level 4</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -287,9 +287,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 5</h6>
+                                                    <h6 className="text-black text-center">Level 5</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -336,9 +336,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 6</h6>
+                                                    <h6 className="text-black text-center">Level 6</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -385,9 +385,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 7</h6>
+                                                    <h6 className="text-black text-center">Level 7</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -434,9 +434,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 8</h6>
+                                                    <h6 className="text-black text-center">Level 8</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -483,9 +483,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 9</h6>
+                                                    <h6 className="text-black text-center">Level 9</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>
@@ -532,9 +532,9 @@ const Vip = () => {
 
                                             <div className="p-2 customborder">
                                                 <div className=" mt-2">
-                                                    <h6 className="text-white text-center">Level 10</h6>
+                                                    <h6 className="text-black text-center">Level 10</h6>
                                                 </div>
-                                                <div className="row table-responsive text-white text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
+                                                <div className="row table-responsive text-black text-center mt-3" style={{ overflow: 'hidden', boxShadow: '2px 1px 15px -4px #000000', borderRadius: '100px' }}>
                                                     <table style={{ overflow: 'hidden' }}>
                                                         <tbody><tr>
                                                             <th>Active</th>

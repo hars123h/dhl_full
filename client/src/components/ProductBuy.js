@@ -88,11 +88,11 @@ const ProductBuy = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/home'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/home'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Withdrawal</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Withdrawal</h2>
 
                         </div>
                     </header>
@@ -105,7 +105,7 @@ const ProductBuy = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row ">
 
                                             <div className="flex items-center">
@@ -132,42 +132,42 @@ const ProductBuy = () => {
                                         <hr />
                                         <div className="flex    ">
                                             <div className="w-1/2">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>Revenue type</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>Revenue type</h6>
                                             </div>
                                             <div className="w-1/2  ">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>{data.product_type == 0 ? 'Daily income' : 'Fixed plan'}</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>{data.product_type == 0 ? 'Daily income' : 'Fixed plan'}</h6>
                                             </div>
                                         </div>
                                         <div className="flex    ">
                                             <div className="w-1/2">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>Daily income</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>Daily income</h6>
                                             </div>
                                             <div className="w-1/2  ">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>{data.plan_daily_earning.toFixed(2)}</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>{data.plan_daily_earning.toFixed(2)}</h6>
                                             </div>
                                         </div>
                                         <div className="flex    ">
                                             <div className="w-1/2">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>Total income</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>Total income</h6>
                                             </div>
                                             <div className="w-1/2  ">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>{(data.plan_cycle * data.plan_daily_earning).toFixed(2)}</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>{(data.plan_cycle * data.plan_daily_earning).toFixed(2)}</h6>
                                             </div>
                                         </div>
                                         <div className="flex    ">
                                             <div className="w-1/2">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>Period of validity</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>Period of validity</h6>
                                             </div>
                                             <div className="w-1/2  ">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>{data.plan_cycle}</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>{data.plan_cycle}</h6>
                                             </div>
                                         </div>
                                         {/* <div className="flex    ">
                                             <div className="w-1/2">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>Purchase limit</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>Purchase limit</h6>
                                             </div>
                                             <div className="w-1/2  ">
-                                                <h6 className="text-white" style={{ fontSize: '14px !important' }}>3</h6>
+                                                <h6 className="text-black" style={{ fontSize: '14px !important' }}>3</h6>
                                             </div>
                                         </div> */}
                                     </div>
@@ -182,7 +182,7 @@ const ProductBuy = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
 
                                             <div className="flex">
@@ -195,7 +195,7 @@ const ProductBuy = () => {
                                                     <p className="text-red-400">{userDetails?.balance?.toFixed(2)}</p>
                                                 </div>
                                                 <div className="w-1/2">
-                                                    <p className="text-white">Choose a wallet</p>
+                                                    <p className="text-black">Choose a wallet</p>
                                                 </div>
                                             </div>
                                             <div className="input-group mb-3">

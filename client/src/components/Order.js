@@ -72,22 +72,22 @@ const Order = () => {
                     <header className="h-[50px] leading-[50px] block mb-[20px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Device</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Device</h2>
 
                         </div>
                     </header>
 
                     <div className="mx-auto relative z-[1] ">
 
-                        <div className="text-white flex mb-5">
+                        <div className="text-black flex mb-5">
 
-                            <div onClick={() => setToggle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${toggle && 'border-b-2'} `}> Working Device</div>
+                            <div onClick={() => setToggle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${toggle && 'border-b-2'} `}> Working Device</div>
 
-                            <div onClick={() => setToggle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${!toggle && 'border-b-2'} `}>Expired Device</div>
+                            <div onClick={() => setToggle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${!toggle && 'border-b-2'} `}>Expired Device</div>
 
                         </div>
 
@@ -104,7 +104,7 @@ const Order = () => {
                                                         <div className="w-full">
                                                             <div className="p-2 customborder">
                                                                 <div className="">
-                                                                    <div className="p-2 text-white">
+                                                                    <div className="p-2 text-black">
                                                                         <div className="row">
                                                                             <div className="mb-3 capitalize">
                                                                                 <p className="text-base mb-1">plan amount: &#8377;{element.plan_amount}</p>
@@ -137,7 +137,7 @@ const Order = () => {
                                                 <>
                                                     {/* <div className="my-[5px] border-x-2 bg-white border-white border-b-2  rounded-[7px]" key={index}>
 
-                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-white">Plan Details</div>
+                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[rgb(1,77,173)] text-black">Plan Details</div>
                                                     <div className='p-3'>
                                                         <div className='mb-1'>earn: &#8377;{DateDifference(new Date(element.date_purchased), new Date(element.date_till_rewarded)) * element.quantity * element.plan_daily_earning}</div>
                                                         <div className='mb-1'>total revenue: {element.plan_daily_earning * element.plan_cycle}</div>
@@ -154,7 +154,7 @@ const Order = () => {
                                                         <div className="w-full">
                                                             <div className="p-2 customborder">
                                                                 <div className="">
-                                                                    <div className="px-2 text-white">
+                                                                    <div className="px-2 text-black">
                                                                         <div className="row">
                                                                             <div className="mb-2 capitalize">
                                                                                 <p className="text-base mb-1">plan amount: &#8377;{element.plan_amount}</p>

@@ -194,11 +194,11 @@ const Myteams = () => {
 					<header className="h-[50px] leading-[50px] block mb-[10px]">
 						<div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-							<Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+							<Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
 								<HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
 							</Link>
 
-							<h2 className=' text-center text-lg font-medium z-[1] text-white ' >My Team</h2>
+							<h2 className=' text-center text-lg font-medium z-[1] text-black ' >My Team</h2>
 
 						</div>
 					</header>
@@ -209,15 +209,15 @@ const Myteams = () => {
 								<div className="customborder p-2">
 									<div>
 										<div className="flex justify-between items-center mb-0 pb-0">
-											<p className="text-white mb-4"> Team Commission </p>
-											<span className="text-white">₹ {(Number(userDetails?.directRecharge + userDetails?.indirectRecharge + userDetails?.in_indirectRecharge)).toFixed(2)}</span>
+											<p className="text-black mb-4"> Team Commission </p>
+											<span className="text-black">₹ {(Number(userDetails?.directRecharge + userDetails?.indirectRecharge + userDetails?.in_indirectRecharge)).toFixed(2)}</span>
 										</div>
-										<div className="flex justify-between items-center" style={{ borderBottom: "1px dotted blue" }}>
-											<span className="text-white">Valid Team Size</span>
-											<span className="text-white">{lvl1.filter(e => e.plans_purchased.length !== 0).length + lvl2.filter(e => e.plans_purchased.length !== 0).length + lvl3.filter(e => e.plans_purchased.length !== 0).length} People</span>
+										<div className="flex justify-between items-center" style={{ borderBottom: "1px dotted #fcfc78" }}>
+											<span className="text-black">Valid Team Size</span>
+											<span className="text-black">{lvl1.filter(e => e.plans_purchased.length !== 0).length + lvl2.filter(e => e.plans_purchased.length !== 0).length + lvl3.filter(e => e.plans_purchased.length !== 0).length} People</span>
 										</div>
 										<div className="row">
-											<table className="table-responsive border-0 text-center text-white" style={{ marginTop: '12px' }}>
+											<table className="table-responsive border-0 text-center text-black" style={{ marginTop: '12px' }}>
 												<tbody>
 													<tr>
 														<th>₹ {totalRecharge?.toFixed(2)}</th>
@@ -247,13 +247,13 @@ const Myteams = () => {
 											<ul className="nav nav-tabs" role="tablist">
 
 												<li className="nav-item">
-													<a onClick={() => handelTooglle('lvl1')} className={`nav-link ${toogle === 'lvl1' && 'active'} text-white`} >Team-B({lvl1.length})</a>
+													<a onClick={() => handelTooglle('lvl1')} className={`nav-link ${toogle === 'lvl1' && 'active'} text-black`} >Team-B({lvl1.length})</a>
 												</li>
 												<li className="nav-item">
-													<a onClick={() => handelTooglle('lvl2')} className={`nav-link ${toogle === 'lvl2' && 'active'} text-white`}  >Team-C({lvl2.length})</a>
+													<a onClick={() => handelTooglle('lvl2')} className={`nav-link ${toogle === 'lvl2' && 'active'} text-black`}  >Team-C({lvl2.length})</a>
 												</li>
 												<li className="nav-item">
-													<a onClick={() => handelTooglle('lvl3')} className={`nav-link ${toogle === 'lvl3' && 'active'} text-white`} >Team-D({lvl3.length})</a>
+													<a onClick={() => handelTooglle('lvl3')} className={`nav-link ${toogle === 'lvl3' && 'active'} text-black`} >Team-D({lvl3.length})</a>
 												</li>
 											</ul>
 										</div>
@@ -282,8 +282,8 @@ const Myteams = () => {
 																	<div className="customborder p-2">
 																		<div>
 																			<div className="flex justify-between items-center mb-0 pb-0">
-																				<p className="text-white textsizeall"> {`${element?.mobno?.slice(0, 2)}******${element?.mobno?.slice(-2)}`} </p>
-																				{/* <span className="text-white">₹
+																				<p className="text-black textsizeall"> {`${element?.mobno?.slice(0, 2)}******${element?.mobno?.slice(-2)}`} </p>
+																				{/* <span className="text-black">₹
 																					{
 																						element.plans_purchased.reduce(function (max, obj) {
 																							return obj?.plan_amount > max?.plan_amount ? obj : max;
@@ -292,8 +292,8 @@ const Myteams = () => {
 																				</span> */}
 																			</div>
 																			<div className="flex justify-between items-center mt-0 pt-0">
-																				<span className="text-white textsizeall" > {new Date(element?.time)?.toDateString()} </span>
-																				<span className="text-white" >{toogle2 === 'valid' ? 'Active' : 'Inactive'}</span>
+																				<span className="text-black textsizeall" > {new Date(element?.time)?.toDateString()} </span>
+																				<span className="text-black" >{toogle2 === 'valid' ? 'Active' : 'Inactive'}</span>
 																			</div>
 																			{/* <hr /> */}
 																		</div>

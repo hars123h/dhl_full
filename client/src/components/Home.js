@@ -108,12 +108,12 @@ const Home = () => {
                                 <br /> */}
                                 {message === 'success' ?
                                     <>
-                                        <p className='text-[blue]'>Received</p>
+                                        <p className='text-[#fcfc78]'>Received</p>
                                         <p className=''>₹{amount}</p>
                                     </>
                                     :
                                     <>
-                                        <p className=' text-[blue]'>Expired</p>
+                                        <p className=' text-[#fcfc78]'>Expired</p>
                                     </>
                                 }
                             </div>
@@ -138,11 +138,11 @@ const Home = () => {
                     <Slider />
                 </div>
 
-                <div className="text-white flex">
+                <div className="text-black flex">
 
-                    <div onClick={() => setToogle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${toogle && 'border-b-2'} `}>Ordinary</div>
+                    <div onClick={() => setToogle(true)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${toogle && 'border-b-2'} `}>Ordinary</div>
 
-                    <div onClick={() => setToogle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-white px-4 py-3 ${!toogle && 'border-b-2'} `}>Exclusive </div>
+                    <div onClick={() => setToogle(false)} className={`IN Miner border-0 border-solid border-white bg-transparent text-black px-4 py-3 ${!toogle && 'border-b-2'} `}>Exclusive </div>
 
                 </div>
 
@@ -211,7 +211,7 @@ const Home = () => {
                             <div className="col-span-12">
                                 <div className="p-2 customborder">
                                     <div className="text-center">
-                                        <h3 className=" text-white">No Device</h3>
+                                        <h3 className=" text-black">No Device</h3>
                                     </div>
                                 </div>
                             </div>

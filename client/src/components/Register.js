@@ -203,7 +203,7 @@ const Register = () => {
 
                             <div className="l-left">
 
-                                <div className="l-title font-bold text-white text-3xl">Hello!</div>
+                                <div className="l-title font-bold text-black text-3xl">Hello!</div>
 
                                 <div className="l-desc text-[10px] font-semibold whitespace-nowrap text-[#666]">Welcome to the Dnex!</div>
 
@@ -219,7 +219,7 @@ const Register = () => {
 
                         <div className="content relative z-[1] ">
 
-                            <div className="lg-t text-lg font-bold text-white">Create an account to earn money</div>
+                            <div className="lg-t text-lg font-bold text-black">Create an account to earn money</div>
 
                             <div className="sign_login sign_login2 relative z-[2] mt-4">
 
@@ -229,7 +229,7 @@ const Register = () => {
 
                                         {/* <img className='w-[19px]' src={phoneimg} alt="" /> */}
                                         <div className=" flex items-center">
-                                            <MdPhoneIphone className='text-white' size={19} />
+                                            <MdPhoneIphone className='text-black' size={19} />
 
                                             <span className="pre   ml-1 font-medium ">+91</span>
 
@@ -239,7 +239,7 @@ const Register = () => {
                                                 placeholder="Phone Number"
                                                 name="pattern"
                                                 maxlength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px]'
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px]'
 
                                             />
                                         </div>
@@ -249,7 +249,7 @@ const Register = () => {
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full justify-between">
 
                                         <div className="flex items-center">
-                                            <IoLockClosed className='text-white' size={19} />
+                                            <IoLockClosed className='text-black' size={19} />
                                             {/* <img className='w-[19px]' src={password} alt="" /> */}
 
                                             <input autoComplete='off'
@@ -258,7 +258,7 @@ const Register = () => {
                                                 placeholder="Password"
                                                 name="pattern"
                                                 maxlength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px] '
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px] '
 
                                             />
                                         </div>
@@ -276,7 +276,7 @@ const Register = () => {
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full justify-between">
 
                                         <div className="flex items-center">
-                                            <IoLockClosed className='text-white' size={19} />
+                                            <IoLockClosed className='text-black' size={19} />
                                             {/* <img className='w-[19px]' src={password} alt="" /> */}
 
                                             <input autoComplete='off'
@@ -285,7 +285,7 @@ const Register = () => {
                                                 placeholder="Confirm New Password"
                                                 name="pattern"
                                                 maxlength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px] '
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px] '
 
                                             />
                                         </div>
@@ -303,7 +303,7 @@ const Register = () => {
                                     <div className="uilist_div account h-8 px-3 py-5 flex items-center bg-[#f6f6f6] mb-4 backdrop-blur-sm hello rounded-full justify-between">
 
                                         <div className="flex items-center w-2/3">
-                                            <IoShieldCheckmark className='text-white' size={19} />
+                                            <IoShieldCheckmark className='text-black' size={19} />
                                             {/* <img className='w-[19px]' src={sms} alt="" /> */}
 
                                             <input autoComplete='off'
@@ -312,7 +312,7 @@ const Register = () => {
                                                 placeholder="Verification"
                                                 name="pattern"
                                                 maxlength="10"
-                                                className='bg-transparent border-transparent outline-none  text-white pl-[10px] '
+                                                className='bg-transparent border-transparent outline-none  text-black pl-[10px] '
 
                                             />
                                         </div>
@@ -338,7 +338,7 @@ const Register = () => {
 
                                 <p className=" text-center mt-[14px]">
 
-                                    <button onClick={handleRegister} className='inline-block w-11/12 leading-3 rounded-full h-9 text-white text-center font-bold px-5 btn btn-primary' >Sign Up</button>
+                                    <button onClick={handleRegister} className='inline-block w-11/12 leading-3 rounded-full h-9 text-black text-center font-bold px-5 btn btn-primary' >Sign Up</button>
 
                                 </p>
 

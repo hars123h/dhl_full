@@ -280,11 +280,11 @@ const Widthdrawl = () => {
                     <header className="h-[50px] leading-[50px] block mb-[10px]">
                         <div className=" max-w-[800px] h-[50px] leading-[50px] left-0 right-0 top-0 mx-auto fixed z-[9999] flex flex-wrap items-center justify-between p-4 ">
 
-                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-white z-[2] flex justify-center items-center ">
+                            <Link to={'/account'} className="w-[60px] h-[50px] text-center text-black z-[2] flex justify-center items-center ">
                                 <HiMiniArrowLongLeft size={22} /> <span className='text-lg'>Back</span>
                             </Link>
 
-                            <h2 className=' text-center text-lg font-medium z-[1] text-white ' >Withdrawal</h2>
+                            <h2 className=' text-center text-lg font-medium z-[1] text-black ' >Withdrawal</h2>
 
                         </div>
                     </header>
@@ -293,12 +293,12 @@ const Widthdrawl = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-5 text-white">
+                                    <div className="p-5 text-black">
                                         <div className="row">
                                             <h6 className="text-center mb-2 text-red-400" >
                                                 ₹ {userDetails?.balance?.toFixed(2)}
                                             </h6>
-                                            <p className="text-center text-white mb-4">Balance ( INR ) </p>
+                                            <p className="text-center text-black mb-4">Balance ( INR ) </p>
                                         </div>
                                     </div>
                                 </div>
@@ -310,10 +310,10 @@ const Widthdrawl = () => {
                         <div className="full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row">
                                             <div className="input-group mb-3">
-                                                <button style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} className="btn btn-outline-primary text-white colorinput">Amount</button>
+                                                <button style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }} className="btn btn-outline-primary text-black colorinput">Amount</button>
                                                 <input autoComplete='off'
                                                     onChange={e => setDeposit(e.target.value)}
                                                     type="text"
@@ -324,12 +324,12 @@ const Widthdrawl = () => {
                                                     style={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0 }}
                                                 />
                                             </div>
-                                            <h6 className="text-white">Withdrawal bank account</h6>
+                                            <h6 className="text-black">Withdrawal bank account</h6>
                                             <hr className="text-center" />
-                                            <p className="text-white mb-4">Acccount name: &nbsp; {userDetails?.bank_details?.fullName}</p>
-                                            <p className="text-white mb-4">Bank name:  &nbsp; {userDetails?.bank_details?.bankName}</p>
-                                            <p className="text-white mb-4">IFSC:  &nbsp; {userDetails?.bank_details?.ifsc} </p>
-                                            <p className="text-white mb-4">Bank account:  &nbsp; {userDetails?.bank_details?.bankAccount}</p>
+                                            <p className="text-black mb-4">Acccount name: &nbsp; {userDetails?.bank_details?.fullName}</p>
+                                            <p className="text-black mb-4">Bank name:  &nbsp; {userDetails?.bank_details?.bankName}</p>
+                                            <p className="text-black mb-4">IFSC:  &nbsp; {userDetails?.bank_details?.ifsc} </p>
+                                            <p className="text-black mb-4">Bank account:  &nbsp; {userDetails?.bank_details?.bankAccount}</p>
                                             <div className="text-center mb-3">
                                                 {isBetween() ?
                                                     <button disabled={nextBtn} onClick={handleWithdrawal} style={{ fontSize: '.75rem', padding: '0.15rem 0.5rem', borderRadius: '5px' }} className="btn btn-primary w-fit" >Withdrawal</button>
@@ -349,10 +349,10 @@ const Widthdrawl = () => {
                         <div className="w-full">
                             <div className="p-2 customborder">
                                 <div className="">
-                                    <div className="p-2 text-white">
+                                    <div className="p-2 text-black">
                                         <div className="row p-3">
-                                            <h6 className="text-white mb-2 px-3 text-sm">Tips</h6>
-                                            <ol className="text-white text-sm">
+                                            <h6 className="text-black mb-2 px-3 text-sm">Tips</h6>
+                                            <ol className="text-black text-sm">
                                                 <li>1. Minimum withdrawal amount is <span className="text-red-400">INR 250</span></li>
                                                 <li>2. Personal income tax is <span className="text-red-400">INR 15 %</span></li>
                                                 <li>3. Withdrawal time is 10 am to 5 pm</li>
