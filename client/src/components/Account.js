@@ -244,12 +244,12 @@ const Account = () => {
                                         </div>
                                     </a> */}
 
-                                    <Link to={'/FAQ'} href="/Member/FAQ">
+                                    {/* <Link to={'/FAQ'} href="/Member/FAQ">
                                         <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
                                             <p className="text-black  textsizeall mb-4"><CiCircleQuestion className="inline mr-2 text-[#6fd0f0]" size={10} /> FAQ</p>
                                             <span><TfiAngleRight className='text-black' size={18} /></span>
                                         </div>
-                                    </Link>
+                                    </Link> */}
 
                                     <a
                                         href={dnex}

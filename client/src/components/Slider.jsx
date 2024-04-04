@@ -26,13 +26,13 @@ const Slider = () => {
           <img src={s3} className="h-[190px] rounded-md" alt="img_1" />
         </div>
 
-        <div>
+        {/* <div>
           <img src={s4} className="h-[190px] rounded-md" alt="img_1" />
         </div>
 
         <div>
           <img src={s5} className="h-[190px] rounded-md" alt="img_1" />
-        </div>
+        </div> */}
 
         {/* <div>
           <img src={s4} className="h-[190px] rounded-md" alt="img_1" />

@@ -173,9 +173,9 @@ function App() {
           {toasterShow &&
             <div className='top-0 left-0 right-0 bottom-0 p-5 z-[9999999] fixed flex items-center'>
               {/* <div className="before:content-[''] fixed top-0 left-0 right-0 bottom-0 bg-[rgba(46,46,46,0.1)] z-[1] backdrop-blur-[3px]"></div> */}
-              <div className="flex items-start bg-[#0000006a] max-w-[250px] px-5 -top-5 relative w-fit mx-auto shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] z-[2] rounded-[7px] ">
+              <div className="flex items-start bg-[#2c2c2c] max-w-[250px] px-5 -top-5 relative w-fit mx-auto shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] z-[2] rounded-[7px] ">
                 <div className="flex-1 px-[5px] py-2">
-                  <p className='text-base text-black text-center'>{toasterText}</p>
+                  <p className='text-base text-white text-center'>{toasterText}</p>
                 </div>
               </div>
             </div>

@@ -55,7 +55,7 @@ const Message = () => {
                                                     </h2>
                                                     <div id="collapseOne" className={`accordion-collapse bg-primary `} style={{ display: yourObject[0] === 1 ? 'block' : 'none' }} aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
                                                         <div className="accordion-body">
-                                                            Set up in 1970, DNeX is a global technology company operating in three business segments namely, Technology, Energy, and Information Technology (“IT”).                                                        </div>
+                                                            Set up in 1970, DHL is a global technology company operating in three business segments namely, Technology, Energy, and Information Technology (“IT”).                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div className="accordion-item bg-primary">
@@ -66,7 +66,7 @@ const Message = () => {
                                                     </h2>
                                                     <div id="collapseTwo" className={`accordion-collapse bg-primary  `} style={{ display: yourObject[1] === 1 ? 'block' : 'none' }} aria-labelledby="headingTwo" data-bs-parent="#accordionExample" >
                                                         <div className="accordion-body">
-                                                            Dagang NeXchange Berhad (“DNeX”) has announced its financial results for the fifth quarter ended 30 September 2023 (“5Q FY2023”), delivering another profitable quarter amidst challenging business landscape.                                                        </div>
+                                                            Dagang NeXchange Berhad (“DHL”) has announced its financial results for the fifth quarter ended 30 September 2023 (“5Q FY2023”), delivering another profitable quarter amidst challenging business landscape.                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div className="accordion-item bg-primary">

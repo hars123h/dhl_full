@@ -177,7 +177,7 @@ const ProductCard = ({ active, pre_sale, long_plan_state, product_type, product_
                             <div className="flex items-center">
 
                                 <div className="text-center">
-                                    <img src={product_image} className="rounded-md" width="50" />
+                                    <img src={product_image} className="rounded-md" width="150" />
                                 </div>
                                 <div className="p-2 text-black">
                                     <h6 className="text-black">{plan_name}</h6>
