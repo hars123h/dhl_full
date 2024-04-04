@@ -192,7 +192,7 @@ const ProductCard = ({ active, pre_sale, long_plan_state, product_type, product_
                                 </div>
 
                             </div>
-                            <div style={{ marginTop: '1rem' }} className="row table-responsive text-black text-center overflow-hidden rounded-[100px] shadow-[2px_1px_15px_-4px_#000000]" >
+                            <div style={{ marginTop: '1rem' }} className="row table-responsive text-black text-center overflow-hidden shadow-[2px_1px_15px_-4px_#000000]" >
                                 <table className='overflow-hidden' >
                                     <tbody><tr>
                                         <th>{(plan_daily_earning * plan_cycle).toFixed(2)}</th>

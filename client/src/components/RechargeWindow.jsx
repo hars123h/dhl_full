@@ -125,7 +125,7 @@ const RechargeWindow = () => {
                     </div>
                     <CopyToClipboard text={`${amounts.upi_id}`} onCopy={() => toaster('copy succeded')}>
                         <div
-                            className='w-1/4 text-sm px-2 text-center py-3 text-#fcfc78-800 cursor-pointer border border-#fcfc78-800 rounded-md'>
+                            className='w-1/4 text-sm px-2 text-center py-3 text-#6fd0f0-800 cursor-pointer border border-#6fd0f0-800 rounded-md'>
                             Copy</div>
                     </CopyToClipboard>
 

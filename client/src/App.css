@@ -2,7 +2,7 @@
     transition: height .3s;
     position: relative;
     z-index: 1;
-    background: #fcfc78;
+    background: #6fd0f0;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     width: 90%;
@@ -10,7 +10,7 @@
     border-radius: 14px;
     /* margin-top: -100px; */
     padding: 16px 12px;
-    border: 1px solid #fcfc78;
+    border: 1px solid #6fd0f0;
 }
 
 .verfy_title {
@@ -99,8 +99,8 @@
 }
 
 nav {
-    background-color: #fcfc78;
-    border-top: 1px solid #fcfc78;
+    background-color: #6fd0f0;
+    border-top: 1px solid #6fd0f0;
     height: 55px !important;
 }
 
@@ -165,7 +165,7 @@ nav {
 }
 
 .btnfix a {
-    background-color: #fcfc78;
+    background-color: #6fd0f0;
     border: medium none;
     color: black;
     float: left;
@@ -174,7 +174,7 @@ nav {
     border-radius: 10px;
     /* padding: 3px; */
     text-decoration: none;
-    border: 1px solid #fcfc78;
+    border: 1px solid black;
 }
 
 .row {
@@ -204,9 +204,9 @@ nav {
 }
 
 .customborder {
-    border: 1px solid #fcfc78;
-    background-color: #fcfc78;
-    border-radius: 7px;
+    border: 1px solid #6fd0f0;
+    background-color: #6fd0f0;
+    #6fd0f0radius: 7px;
     -webkit-box-shadow: 1px 2px 11px 3px #000000;
     box-shadow: 1px 2px 11px 3px #000000;
 }
@@ -510,7 +510,7 @@ button:not(:disabled) {
     min-width: 0;
     position: relative;
     width: 1%;
-    background: #fcfc78 !important;
+    background: #6fd0f0 !important;
     padding: 5px;
     margin-top: 10px;
 }
@@ -521,7 +521,7 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
     black-space: nowrap;
-    background: #fcfc78 !important;
+    background: #6fd0f0 !important;
 }
 
 option:focus-visible {

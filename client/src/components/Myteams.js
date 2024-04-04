@@ -212,7 +212,7 @@ const Myteams = () => {
 											<p className="text-black mb-4"> Team Commission </p>
 											<span className="text-black">₹ {(Number(userDetails?.directRecharge + userDetails?.indirectRecharge + userDetails?.in_indirectRecharge)).toFixed(2)}</span>
 										</div>
-										<div className="flex justify-between items-center" style={{ borderBottom: "1px dotted #fcfc78" }}>
+										<div className="flex justify-between items-center" style={{ borderBottom: "1px dotted #6fd0f0" }}>
 											<span className="text-black">Valid Team Size</span>
 											<span className="text-black">{lvl1.filter(e => e.plans_purchased.length !== 0).length + lvl2.filter(e => e.plans_purchased.length !== 0).length + lvl3.filter(e => e.plans_purchased.length !== 0).length} People</span>
 										</div>

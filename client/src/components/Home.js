@@ -108,12 +108,12 @@ const Home = () => {
                                 <br /> */}
                                 {message === 'success' ?
                                     <>
-                                        <p className='text-[#fcfc78]'>Received</p>
+                                        <p className='text-[#6fd0f0]'>Received</p>
                                         <p className=''>₹{amount}</p>
                                     </>
                                     :
                                     <>
-                                        <p className=' text-[#fcfc78]'>Expired</p>
+                                        <p className=' text-[#6fd0f0]'>Expired</p>
                                     </>
                                 }
                             </div>

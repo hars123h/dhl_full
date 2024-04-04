@@ -137,21 +137,21 @@ const Deposit = () => {
                         <div className="w-full">
                             <div className="customborder p-2">
                                 <div className="p-2 mb-2">
-                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
                                         <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />UPI Channel-1
                                         </label>
                                         <span><input autoComplete='off' type="radio" defaultChecked className="bankOption" name="bankOption" value="1" onChange={(e) => setUpichannel(e.target.value)} /></span>
 
                                     </div>
-                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                    <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
                                         <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />UPI Channel-2
                                         </label>
                                         <span><input autoComplete='off' type="radio" className="bankOption" name="bankOption" value="2" onChange={(e) => setUpichannel(e.target.value)} /></span>
                                     </div>
 
-                                    {/* <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
+                                    {/* <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
                                         <label className="text-black text-[15px] flex items-center">
                                             <PiArrowCircleUpRightLight size={15} className='mx-2' />Pay Using our Crypto Channel-3
                                         </label>

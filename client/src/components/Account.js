@@ -79,7 +79,7 @@ const Account = () => {
 
                                     <div className="flex space-x-4 items-center">
 
-                                        <img className="rounded-circle rounded mt-2 mb-2 " style={{ border: '1px solid #fcfc78' }} src={accountImg} alt="Placeholder" width="50" height="50" />
+                                        <img className="rounded-circle rounded mt-2 mb-2 " style={{ border: '1px solid #6fd0f0' }} src={accountImg} alt="Placeholder" width="50" height="50" />
 
                                         <b className="text-black fs-4">{userDetails?.mobno} &nbsp;<span className="text-red-400">L{userDetails?.vipLevel}</span></b>
 
@@ -90,7 +90,7 @@ const Account = () => {
                                 </div>
                             </div>
                             <div className=" flex text-center items-center">
-                                <span className="text-black   p-1 fs-4" style={{ borderRadius: '5px', backgroundColor: '#fcfc78', border: '1px solid #fcfc78' }}>
+                                <span className="text-black   p-1 fs-4" style={{ borderRadius: '5px', backgroundColor: '#6fd0f0', border: '1px solid #6fd0f0' }}>
                                     Score: {(userDetails?.vipLevel) * 20}
                                     <FaRegGem className='mx-auto' />
                                 </span>
@@ -238,15 +238,15 @@ const Account = () => {
                                 <div className="p-2">
 
                                     {/* <a href="/Member/Rule">
-                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
-                                            <p className="text-black textsizeall mb-4 "><BsArrowUpCircle className="inline mr-2 rotate-45 text-[#fcfc78]" size={10} />Rules</p>
+                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
+                                            <p className="text-black textsizeall mb-4 "><BsArrowUpCircle className="inline mr-2 rotate-45 text-[#6fd0f0]" size={10} />Rules</p>
                                             <span><TfiAngleRight className='text-black' size={18} /></span>
                                         </div>
                                     </a> */}
 
                                     <Link to={'/FAQ'} href="/Member/FAQ">
-                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
-                                            <p className="text-black  textsizeall mb-4"><CiCircleQuestion className="inline mr-2 text-[#fcfc78]" size={10} /> FAQ</p>
+                                        <div className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
+                                            <p className="text-black  textsizeall mb-4"><CiCircleQuestion className="inline mr-2 text-[#6fd0f0]" size={10} /> FAQ</p>
                                             <span><TfiAngleRight className='text-black' size={18} /></span>
                                         </div>
                                     </Link>
@@ -256,13 +256,13 @@ const Account = () => {
                                         download="Dnex"
                                         target="_blank"
                                         rel="noopener noreferrer" 
-                                        className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
-                                        <p className="text-black  textsizeall mb-4"><BsArrowUpCircle className=" rotate-180 inline mr-2 text-[#fcfc78]" size={10} /> App Download</p>
+                                        className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
+                                        <p className="text-black  textsizeall mb-4"><BsArrowUpCircle className=" rotate-180 inline mr-2 text-[#6fd0f0]" size={10} /> App Download</p>
                                         <span><TfiAngleRight className='text-black' size={18} /></span>
                                     </a>
 
-                                    <div onClick={handelSignOut} className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #fcfc78' }}>
-                                        <p href="#" className="text-black textsizeall mb-4"> <IoPower className="inline mr-2 text-[#fcfc78]" size={10} /> Sign out</p>
+                                    <div onClick={handelSignOut} className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
+                                        <p href="#" className="text-black textsizeall mb-4"> <IoPower className="inline mr-2 text-[#6fd0f0]" size={10} /> Sign out</p>
                                         <span><TfiAngleRight className='text-black' size={18} /></span>
                                     </div>
 

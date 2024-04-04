@@ -29,37 +29,37 @@ const CustomerCare = () => {
 
                     <div>
 
-                        <a href='https://telegram.me/Johny_Thomas' className="flex items-center border-[#fcfc78]	border p-4 rounded-lg my-3 ">
-                            <img className="w-[45px] pr-[10px] border-r border-[#fcfc78]" src={TeleImg} alt="" />
+                        <a href='https://telegram.me/Johny_Thomas' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
+                            <img className="w-[45px] pr-[10px] border-r border-black" src={TeleImg} alt="" />
                             <div className="pl-[10px] pr-[10px] ">
                                 <div className="text-black">Telegram</div>
                                 <p className="text-[grey] text-[15px]">
                                     Click to contact customer service
                                 </p>
                             </div>
-                            <IoIosArrowForward className="text-[#fcfc78]" />
+                            <IoIosArrowForward className="text-[#6fd0f0]" />
                         </a>
 
-                        <a href='https://telegram.me/DNexOfficial91' className="flex items-center border-[#fcfc78]	border p-4 rounded-lg my-3 ">
-                            <img className="w-[45px] pr-[10px] border-r border-[#fcfc78]" src={TeleImg} alt="" />
+                        <a href='https://telegram.me/DNexOfficial91' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
+                            <img className="w-[45px] pr-[10px] border-r border-black" src={TeleImg} alt="" />
                             <div className="pl-[10px] pr-[10px] ">
                                 <div className="text-black">Telegram</div>
                                 <p className="text-[grey] text-[15px]">
                                     Click to join official telegram channel
                                 </p>
                             </div>
-                            <IoIosArrowForward className="text-[#fcfc78]" />
+                            <IoIosArrowForward className="text-[#6fd0f0]" />
                         </a>
 
-                        {/* <a href="https://wa.me/447578046579" className="flex items-center border-[#fcfc78]	border p-4 rounded-lg my-3 ">
-                            <img className="w-[45px] pr-[10px] border-r border-[#fcfc78]" src={WpImg} alt="" />
+                        {/* <a href="https://wa.me/447578046579" className="flex items-center border-black	border p-4 rounded-lg my-3 ">
+                            <img className="w-[45px] pr-[10px] border-r border-black" src={WpImg} alt="" />
                             <div className="pl-[10px] pr-[10px] ">
                                 <div className="text-black">Whatsapp</div>
                                 <p className="text-[grey] text-[15px]">
                                     Click to contact customer service
                                 </p>
                             </div>
-                            <IoIosArrowForward className="text-[#fcfc78]" />
+                            <IoIosArrowForward className="text-[#6fd0f0]" />
                         </a> */}
 
                     </div>

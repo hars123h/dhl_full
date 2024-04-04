@@ -191,7 +191,7 @@ const Register = () => {
     return (
         <>
 
-            <div className="text-base en h-screen w-screen bg-[linear-gradient(to left bottom, #fcfc78, #021140, #031345, #051549, #08174e)] px-5">
+            <div className="text-base en h-screen w-screen bg-[linear-gradient(to left bottom, #6fd0f0, #021140, #031345, #051549, #08174e)] px-5">
 
                 <div className="isPc h-full flex flex-col w-full text-[white] ">
 

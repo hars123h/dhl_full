@@ -156,7 +156,7 @@ const Records = () => {
 
                                                 {datalist.sort(compareDates)?.map((data, index) =>
 
-                                                    <li key={index} className='my-5 p-3 rounded-[7px] border border-[#fcfc78]'>
+                                                    <li key={index} className='my-5 p-3 rounded-[7px] border border-black'>
 
                                                         <div className="flex items-center justify-between">
 
