@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3cabfd2d.css",
-    "main.js": "/static/js/main.fba545f3.js",
+    "main.js": "/static/js/main.6e760eb5.js",
     "static/media/app-release.apk": "/static/media/app-release.db391866d2f342a537bc.apk",
     "static/media/s2.jpg": "/static/media/s2.de48d54f773a1aebf645.jpg",
     "static/media/s3.jpg": "/static/media/s3.e63bf86fbb55f65cd4fd.jpg",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
     "static/media/g1.jpg": "/static/media/g1.191c00ffc2d45aabb3ad.jpg",
-    "static/media/accountImg.jpg": "/static/media/accountImg.549bb4587d781ddbb1e5.jpg",
     "static/media/aboutimg2.jpg": "/static/media/aboutimg2.d2345c55e470b951a7db.jpg",
     "static/media/invitebg.png": "/static/media/invitebg.8e9d34d2df9aae0268a6.png",
     "static/media/301.png": "/static/media/301.a79adc35e5edf1db03c2.png",
@@ -29,6 +28,7 @@
     "static/media/g5.jpg": "/static/media/g5.45244ef86319c8307669.jpg",
     "static/media/b5.jpg": "/static/media/b5.a2fa507ec53d52039287.jpg",
     "static/media/aboutusimg.jpg": "/static/media/aboutusimg.6fbbe81260c65f3c8133.jpg",
+    "static/media/login.png": "/static/media/login.260a888861853d1bf1eb.png",
     "static/media/cardimg.jpg": "/static/media/cardimg.22d89214a1e71968111f.jpg",
     "static/media/g4.jpg": "/static/media/g4.eddb62ee3382aaa473c9.jpg",
     "static/media/04.png": "/static/media/04.0f7d685a7b8ca4c6dcc0.png",
@@ -70,10 +70,10 @@
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
     "main.3cabfd2d.css.map": "/static/css/main.3cabfd2d.css.map",
-    "main.fba545f3.js.map": "/static/js/main.fba545f3.js.map"
+    "main.6e760eb5.js.map": "/static/js/main.6e760eb5.js.map"
   },
   "entrypoints": [
     "static/css/main.3cabfd2d.css",
-    "static/js/main.fba545f3.js"
+    "static/js/main.6e760eb5.js"
   ]
 }

@@ -11,7 +11,7 @@ import Logoutimg from '../images/LogOut.svg'
 import axios from 'axios'
 import BASE_URL from '../api_url'
 import { ContextApi } from '../App'
-import accountImg from '../images/btc/accountImg.jpg';
+import accountImg from '../images/btc/login.png';
 import { FaRegGem } from "react-icons/fa";
 import { IoWalletOutline } from "react-icons/io5";
 import { PiDevicesLight } from "react-icons/pi";

@@ -186,7 +186,7 @@ const Home = () => {
                             />
 
                             <ProductCard
-                                product_image={b5}
+                                product_image={b1}
                                 product_type={0}
                                 plan_cycle={40}
                                 plan_amount={12000}
@@ -195,7 +195,7 @@ const Home = () => {
                             />
 
                             {/* <ProductCard
-                                product_image={b5}
+                                product_image={b1}
                                 product_type={0}
                                 plan_cycle={35}
                                 plan_amount={95000}
@@ -227,7 +227,7 @@ const Home = () => {
                             />
 
                             <ProductCard
-                                product_image={b5}
+                                product_image={b1}
                                 product_type={1}
                                 plan_cycle={5}
                                 plan_amount={350}
