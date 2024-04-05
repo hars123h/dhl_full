@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3cabfd2d.css",
-    "main.js": "/static/js/main.3ec9b9e1.js",
+    "main.js": "/static/js/main.db93c17e.js",
     "static/media/app-release.apk": "/static/media/app-release.db391866d2f342a537bc.apk",
     "static/media/s2.jpg": "/static/media/s2.de48d54f773a1aebf645.jpg",
-    "static/media/login.png": "/static/media/login.52d2d1ee396d1bebd04f.png",
     "static/media/s3.jpg": "/static/media/s3.e63bf86fbb55f65cd4fd.jpg",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
     "static/media/g1.jpg": "/static/media/g1.191c00ffc2d45aabb3ad.jpg",
     "static/media/aboutimg2.jpg": "/static/media/aboutimg2.d2345c55e470b951a7db.jpg",
+    "static/media/login.png": "/static/media/login.6dcc686a8056dfd93004.png",
     "static/media/invitebg.png": "/static/media/invitebg.8e9d34d2df9aae0268a6.png",
     "static/media/301.png": "/static/media/301.a79adc35e5edf1db03c2.png",
     "static/media/logo.jpg": "/static/media/logo.2c7ed129f122c91c5f2e.jpg",
@@ -70,10 +70,10 @@
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
     "main.3cabfd2d.css.map": "/static/css/main.3cabfd2d.css.map",
-    "main.3ec9b9e1.js.map": "/static/js/main.3ec9b9e1.js.map"
+    "main.db93c17e.js.map": "/static/js/main.db93c17e.js.map"
   },
   "entrypoints": [
     "static/css/main.3cabfd2d.css",
-    "static/js/main.3ec9b9e1.js"
+    "static/js/main.db93c17e.js"
   ]
 }
