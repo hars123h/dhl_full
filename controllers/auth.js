@@ -549,14 +549,14 @@ exports.purchase = async (req, res) => {
       { _id: user_data.grand_parent_id },
       {
         $inc: {
-          balance: Number((3 / 100) * Number(investAmount)),
-          indirectRecharge: Number((3 / 100) * Number(investAmount)),
+          balance: Number((7 / 100) * Number(investAmount)),
+          indirectRecharge: Number((7 / 100) * Number(investAmount)),
         },
         $addToSet: {
           // indirectMember: data.user_id,
           comissionData: {
             ...commissionData,
-            comissionAmount: Number((investAmount * 3) / 100),
+            comissionAmount: Number((investAmount * 7) / 100),
             commissionLevel: "Level 2",
           },
         },
@@ -567,14 +567,14 @@ exports.purchase = async (req, res) => {
       { _id: user_data.great_grand_parent_id },
       {
         $inc: {
-          balance: Number((2 / 100) * Number(investAmount)),
-          in_indirectRecharge: Number((2 / 100) * Number(investAmount)),
+          balance: Number((3 / 100) * Number(investAmount)),
+          in_indirectRecharge: Number((3 / 100) * Number(investAmount)),
         },
         $addToSet: {
           // in_indirectMember: data.user_id,
           comissionData: {
             ...commissionData,
-            comissionAmount: Number((investAmount * 2) / 100),
+            comissionAmount: Number((investAmount * 3) / 100),
             commissionLevel: "Level 3",
           },
         },
@@ -864,29 +864,29 @@ exports.place_withdrawal = async (req, res) => {
 
   // console.log(mylastWithdrawal.toDateString() === date.toDateString());
 
-  if (!userData.plans_purchased.some(obj => obj.plan_amount === 350)) {
-    return res.status(400).json({
-      message: 'buy 350 plan to withdraw'
-    })
-  }
+  // if (!userData.plans_purchased.some(obj => obj.plan_amount === 350)) {
+  //   return res.status(400).json({
+  //     message: 'buy 350 plan to withdraw'
+  //   })
+  // }
 
-  if (userData.plans_purchased.some(obj => obj.plan_amount > 500) && !userData.plans_purchased.some(obj => obj.plan_amount === 1100)) {
-    return res.status(400).json({
-      message: 'buy 1100 plan to withdraw'
-    })
-  }
+  // if (userData.plans_purchased.some(obj => obj.plan_amount > 500) && !userData.plans_purchased.some(obj => obj.plan_amount === 1100)) {
+  //   return res.status(400).json({
+  //     message: 'buy 1100 plan to withdraw'
+  //   })
+  // }
 
-  if (mylastWithdrawal.toDateString() === date.toDateString()) {
-    return res.status(400).json({
-      message: 'you can withdraw once in a day.'
-    })
-  }
+  // if (mylastWithdrawal.toDateString() === date.toDateString()) {
+  //   return res.status(400).json({
+  //     message: 'you can withdraw once in a day.'
+  //   })
+  // }
 
-  if (data.withdrawalAmount < 250) {
-    return res.status(400).json({
-      message: 'Amount Should be greater than 250.'
-    })
-  }
+  // if (data.withdrawalAmount < 250) {
+  //   return res.status(400).json({
+  //     message: 'Amount Should be greater than 250.'
+  //   })
+  // }
 
   // else if (!isBetween()) {
   //   return res.status(400).json({

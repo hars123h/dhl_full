@@ -29,7 +29,7 @@ const CustomerCare = () => {
 
                     <div>
 
-                        <a href='https://telegram.me/Johny_Thomas' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
+                        <a href='https://t.me/erancreevy' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
                             <img className="w-[45px] pr-[10px] border-r border-black" src={TeleImg} alt="" />
                             <div className="pl-[10px] pr-[10px] ">
                                 <div className="text-black">Telegram</div>
@@ -40,7 +40,7 @@ const CustomerCare = () => {
                             <IoIosArrowForward className="text-[#6fd0f0]" />
                         </a>
 
-                        <a href='https://telegram.me/DNexOfficial91' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
+                        <a href='https://telegram.me/DHLOfficialChannal' className="flex items-center border-black	border p-4 rounded-lg my-3 ">
                             <img className="w-[45px] pr-[10px] border-r border-black" src={TeleImg} alt="" />
                             <div className="pl-[10px] pr-[10px] ">
                                 <div className="text-black">Telegram</div>

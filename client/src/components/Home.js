@@ -172,7 +172,7 @@ const Home = () => {
                                 product_type={0}
                                 plan_cycle={40}
                                 plan_amount={1400}
-                                plan_daily_earning={300}
+                                plan_daily_earning={400}
                                 pre_sale={false}
                             />
 
@@ -190,7 +190,7 @@ const Home = () => {
                                 product_type={0}
                                 plan_cycle={40}
                                 plan_amount={12000}
-                                plan_daily_earning={3000}
+                                plan_daily_earning={3500}
                                 pre_sale={true}
                             />
 

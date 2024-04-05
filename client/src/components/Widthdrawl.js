@@ -54,8 +54,8 @@ const Widthdrawl = () => {
     withdrawDate.setHours(0, 0, 0, 0)
 
     const isBetween = () => {
-        var startTime = '10:00:00';
-        var endTime = '17:00:00';
+        var startTime = '07:00:00';
+        var endTime = '16:00:00';
 
         var currentDate = new Date()
 
