@@ -255,7 +255,7 @@ const Account = () => {
                                         href={dnex}
                                         download="Dnex"
                                         target="_blank"
-                                        rel="noopener noreferrer" 
+                                        rel="noopener noreferrer"
                                         className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>
                                         <p className="text-black  textsizeall mb-4"><BsArrowUpCircle className=" rotate-180 inline mr-2 text-[#6fd0f0]" size={10} /> App Download</p>
                                         <span><TfiAngleRight className='text-black' size={18} /></span>

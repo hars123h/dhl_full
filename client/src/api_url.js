@@ -1,7 +1,7 @@
 // const BASE_URL = "https://whale-app-rqcs6.ondigitalocean.app/api";
 // const BASE_URL = 'https://lobster-app-5gysu.ondigitalocean.app/api'
 // const BASE_URL = 'http://localhost:8000/api'
-const BASE_URL = 'https://monkfish-app-kazb7.ondigitalocean.app/api'
+const BASE_URL = 'https://flydhl67.site/api'
 export const upiurl = 'https://www.indopay-stc.online/pay'
 export const upiurl2 = 'https://www.sun-pay.site/pay'
 
