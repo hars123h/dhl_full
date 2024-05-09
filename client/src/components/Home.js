@@ -149,14 +149,6 @@ const Home = () => {
                 <div className="flex flex-col mt-5">
                     {toogle ?
                         <>
-                            <ProductCard
-                                product_image={b1}
-                                product_type={0}
-                                plan_cycle={1}
-                                plan_amount={250}
-                                plan_daily_earning={350}
-                                pre_sale={false}
-                            />
 
                             <ProductCard
                                 product_image={b2}
@@ -206,6 +198,16 @@ const Home = () => {
 
                         :
                         <>
+
+
+                            <ProductCard
+                                product_image={b1}
+                                product_type={1}
+                                plan_cycle={1}
+                                plan_amount={250}
+                                plan_daily_earning={350}
+                                pre_sale={false}
+                            />
 
                             {/* <div className="row mb-3">
                             <div className="col-span-12">

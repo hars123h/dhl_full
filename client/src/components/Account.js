@@ -26,7 +26,7 @@ import { BsArrowUpCircle } from "react-icons/bs";
 import { TfiAngleRight } from "react-icons/tfi";
 import { CiCircleQuestion } from "react-icons/ci";
 import { IoPower } from "react-icons/io5";
-import dnex from '../images/app-release.apk';
+import DHL from '../images/app-release.apk';
 
 const Account = () => {
 
@@ -85,7 +85,7 @@ const Account = () => {
 
                                     </div>
 
-                                    <b className=""><small className="text-black">Dnex</small></b>
+                                    <b className=""><small className="text-black">DHL</small></b>
 
                                 </div>
                             </div>
@@ -252,8 +252,8 @@ const Account = () => {
                                     </Link> */}
 
                                     <a
-                                        href={dnex}
-                                        download="Dnex"
+                                        href={DHL}
+                                        download="DHL"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex justify-between items-center mb-2" style={{ borderBottom: '1px solid #6fd0f0' }}>

@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3cabfd2d.css",
-    "main.js": "/static/js/main.dfc0653b.js",
+    "main.js": "/static/js/main.0a85246d.js",
     "static/media/app-release.apk": "/static/media/app-release.229195abbd2dec13430b.apk",
-    "static/media/s2.jpg": "/static/media/s2.de48d54f773a1aebf645.jpg",
-    "static/media/s3.jpg": "/static/media/s3.e63bf86fbb55f65cd4fd.jpg",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
     "static/media/g1.jpg": "/static/media/g1.191c00ffc2d45aabb3ad.jpg",
     "static/media/aboutimg2.jpg": "/static/media/aboutimg2.d2345c55e470b951a7db.jpg",
@@ -21,14 +19,16 @@
     "static/media/g2.jpg": "/static/media/g2.0696517a46b1ca78af8a.jpg",
     "static/media/home bg.jpg": "/static/media/home bg.be620f14fba10fced38b.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.7e0e44093928b888fe68.jpg",
-    "static/media/s1.jpg": "/static/media/s1.7e0e44093928b888fe68.jpg",
+    "static/media/s3.jpg": "/static/media/s3.5e02fa1717e96097c091.jpg",
     "static/media/g9.png": "/static/media/g9.3aac741dcd8017c728cf.png",
     "static/media/imgriti.png": "/static/media/imgriti.a52efd66beec6a590380.png",
     "static/media/qr.jpeg": "/static/media/qr.fe707f3022a353ff9ace.jpeg",
+    "static/media/s1.jpg": "/static/media/s1.43ab14d6239407e4046f.jpg",
     "static/media/bankaccountimg.png": "/static/media/bankaccountimg.0ca5b72f1a5b4a24c6cc.png",
     "static/media/g5.jpg": "/static/media/g5.45244ef86319c8307669.jpg",
     "static/media/b5.jpg": "/static/media/b5.a2fa507ec53d52039287.jpg",
     "static/media/aboutusimg.jpg": "/static/media/aboutusimg.6fbbe81260c65f3c8133.jpg",
+    "static/media/s2.jpg": "/static/media/s2.95efc89e80b883e45d7a.jpg",
     "static/media/cardimg.jpg": "/static/media/cardimg.22d89214a1e71968111f.jpg",
     "static/media/g4.jpg": "/static/media/g4.eddb62ee3382aaa473c9.jpg",
     "static/media/04.png": "/static/media/04.0f7d685a7b8ca4c6dcc0.png",
@@ -70,10 +70,10 @@
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
     "main.3cabfd2d.css.map": "/static/css/main.3cabfd2d.css.map",
-    "main.dfc0653b.js.map": "/static/js/main.dfc0653b.js.map"
+    "main.0a85246d.js.map": "/static/js/main.0a85246d.js.map"
   },
   "entrypoints": [
     "static/css/main.3cabfd2d.css",
-    "static/js/main.dfc0653b.js"
+    "static/js/main.0a85246d.js"
   ]
 }
