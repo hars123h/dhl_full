@@ -918,7 +918,7 @@ exports.place_withdrawal = async (req, res) => {
 
         // console.log(response, 'withdrawl responce');
         res.status(200).json({
-          message: "Withdrawal Requeste Placed Successfully",
+          message: "Withdrawal Request Placed Successfully",
           data,
         });
       })
