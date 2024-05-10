@@ -79,10 +79,10 @@ const Widthdrawl = () => {
 
         setnextBtn(true)
 
-        if (userDetails?.plans_purchased?.length === 0) {
-            toaster('Atleast buy one plan to withdraw');
-            return;
-        }
+        // if (userDetails?.plans_purchased?.length === 0) {
+        //     toaster('Atleast buy one plan to withdraw');
+        //     return;
+        // }
 
         // if (new Date().getDay() === 0) {
         //     toaster('widthdrawl is off on sunday');
