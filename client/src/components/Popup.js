@@ -30,7 +30,7 @@ const Popup = () => {
                     <div className="flex space-x-3 items-center">
 
                         <img src={navlogo} alt="" className='w-20 mx-auto' />
-                        {/* <h1 className='text-xl text-black font-bold'>DHL</h1> */}
+                        {/* <h1 className='text-xl text-black font-bold'>Intel</h1> */}
 
                     </div>
 
@@ -45,7 +45,7 @@ const Popup = () => {
                             <p className='text-[#787b8a] py-5'><img src={calender} alt="" className='w-5 inline-block' /> Launch date: November 19, 2023</p> */}
 
                         <div className="text-[black]">
-                            ✅Dear DHL Users Daily New Update Join Our Official Telegram Channel. <br />
+                            ✅Dear Intel Users Daily New Update Join Our Official Telegram Channel. <br />
                             🎁EveryDay Free Lifafa 3₹<br />
                             ✅invite 3 Level Commission 10% 7% 3% Invite friends Get Commission . <br />
                             ✅Buy Any Ordinary Product Get 5% Extra Bonus (Contact Customer Service ) <br />
@@ -63,8 +63,8 @@ const Popup = () => {
                     </div> */}
 
                     <div className="text-center px-auto my-2 ">
-                        <Link to={'https://t.me/dhl_officials'} className='text-center mx-auto'>
-                            <p className='text-ellipsis break-words break-all'>https://telegram.me/DHLtransport123</p>
+                        <Link to={'https://t.me/Intel_officials'} className='text-center mx-auto'>
+                            <p className='text-ellipsis break-words break-all'>https://telegram.me/Inteltransport123</p>
                         </Link>
                     </div>
 

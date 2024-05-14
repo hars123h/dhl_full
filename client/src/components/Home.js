@@ -27,8 +27,8 @@ import { FaListAlt } from 'react-icons/fa'
 import ProductCard from './ProductCard'
 import homeLogo from '../images/btc/login.png'
 import b1 from '../images/btc/b1.jpg';
-import b2 from '../images/btc/b2.jpg';
-import b3 from '../images/btc/b3.jpg';
+import b2 from '../images/btc/b2.png';
+import b3 from '../images/btc/b3.png';
 import b4 from '../images/btc/b4.jpg';
 import b5 from '../images/btc/b5.jpg';
 import Slider from './Slider'

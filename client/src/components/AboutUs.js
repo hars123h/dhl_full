@@ -39,29 +39,25 @@ const AboutUs = () => {
                     <div className="row ">
                         <div className="col-span-12">
                             <div className="p-3 customborder  rounded-sm ">
-{/* 
+                                {/* 
                                 <div ref={ref} className="">
                                     <iframe width={dim[0]} height={dim[1]} src="https://www.youtube.com/embed/MpcMXUtmV8I?si=ZiVZjJAB68CFLr4t&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div> */}
 
-                                <h3 class="text-center text-black mt-4 mb-5 ">DHL</h3>
+                                <h3 class="text-center text-black mt-4 mb-5 ">Intel</h3>
 
                                 <p className='text-black'>
-                                    <br />
-                                    Today, DHL is the world's leading logistics company. Our 600,000 people in over 220 countries and territories work every day to help you cross borders, reach new markets and grow your business. Or simply send a letter to your loved ones.                                       <br /><br />
+                                    Intel <br /><br />
+                                    Intel is best known for developing the microprocessors found in most of the world’s personal computers. The multinational technology company is also the world’s largest manufacturer by revenue of semiconductor chips, a product used in most of the world’s electronic devices. Intel’s microprocessors are supplied and used in computers at several large tech companies, including Dell, HP, and Lenovo. Intel also manufactures graphics chips, flash memory, motherboard chipsets, and other computing devices. In recent years, Intel has invested heavily in the world of artificial intelligence, including the December 2019 acquisition of A.I. chipmaker Habana Labs for $2 billion. Recently, Intel made headlines when it introduced an artificial intelligence assistant at Lee’s Famous Recipe Chicken Restaurants in Ohio, which uses voice recognition technology to quickly and efficiently take customers’ orders.
+                                    <br /><br />
 
-                                    <img src={aboutimg2} className='mb-5' alt="" />
-
-                                    DHL Group is the world's leading logistic company. The Group connects people and markets and is an enabler of global trade. It aspires to be the first choice for customers, employees and investors worldwide.                                    <br /><br />
-
-
-                                    <img src={aboutimg} className='mb-5' alt="" />
-
-                                    In summary, I am drawn to DHL because of its strong reputation, innovative approach, global exposure, opportunities for career growth, and positive work culture. I am confident that working at DHL will not only be a fulfilling professional experience but also a great opportunity to contribute to the company's success.                                    <br /><br />
-
-
-
-                                    Deutsche Post began to acquire shares in DHL in 1998, acquiring a controlling interest in 2001. By the end of 2002, Deutsche Post had acquired all of DHL's remaining stock, and absorbed the operation into its Express division. The DHL brand was expanded to other Deutsche Post divisions, business units and subsidiaries.                                </p>
+                                    We create world-changing technology that improves the life of every person on the planet.
+                                    <br /><br />
+                                    Intel put the silicon in Silicon Valley. For more than 50 years, Intel and our people have had a profound influence on the world, driving business and society forward by creating radical innovation that revolutionizes the way we live.
+                                    <br /><br />
+                                    Today we are applying our reach, scale, and resources to enable our customers to capitalize more fully on the power of digital technology. Inspired by Moore’s Law, we continuously work to advance the design and manufacturing of semiconductors to help address our customers’ greatest challenges.
+                                    <br /><br />
+                                </p>
                             </div>
                         </div>
                     </div>
