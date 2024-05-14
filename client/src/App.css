@@ -2,7 +2,7 @@
     transition: height .3s;
     position: relative;
     z-index: 1;
-    background: #6fd0f0;
+    background: #3b7ddd;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     width: 90%;
@@ -10,7 +10,7 @@
     border-radius: 14px;
     /* margin-top: -100px; */
     padding: 16px 12px;
-    border: 1px solid #6fd0f0;
+    border: 1px solid #3b7ddd;
 }
 
 .verfy_title {
@@ -99,8 +99,8 @@
 }
 
 nav {
-    background-color: #6fd0f0;
-    border-top: 1px solid #6fd0f0;
+    background-color: #3b7ddd;
+    border-top: 1px solid #3b7ddd;
     height: 55px !important;
 }
 
@@ -154,7 +154,7 @@ nav {
 }
 
 .nav-link {
-    color: #3b7ddd;
+    color: #6fd0f0;
     display: block;
     padding: 0.5rem 1rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
@@ -165,7 +165,7 @@ nav {
 }
 
 .btnfix a {
-    background-color: #6fd0f0;
+    background-color: #3b7ddd;
     border: medium none;
     color: black;
     float: left;
@@ -204,9 +204,9 @@ nav {
 }
 
 .customborder {
-    border: 1px solid #6fd0f0;
-    background-color: #6fd0f0;
-    #6fd0f0radius: 7px;
+    border: 1px solid #3b7ddd;
+    background-color: #3b7ddd;
+    border-radius: 7px;
     -webkit-box-shadow: 1px 2px 11px 3px #000000;
     box-shadow: 1px 2px 11px 3px #000000;
 }
@@ -255,13 +255,13 @@ tr {
 }
 
 .btn-outline-primary {
-    border-color: #3b7ddd;
-    color: #3b7ddd;
+    border-color: #6fd0f0;
+    color: #6fd0f0;
 }
 
 .btn-primary {
-    background-color: #3b7ddd;
-    border-color: #3b7ddd;
+    background-color: #6fd0f0;
+    border-color: #6fd0f0;
     color: #fff;
 }
 
@@ -342,7 +342,7 @@ tr {
 }
 
 .progress-bar {
-    background-color: #3b7ddd;
+    background-color: #6fd0f0;
     color: #fff;
     flex-direction: column;
     justify-content: center;
@@ -469,7 +469,7 @@ button:not(:disabled) {
 }
 
 .nav-link {
-    color: #3b7ddd;
+    color: #6fd0f0;
     display: block;
     padding: 0.5rem 1rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
@@ -510,7 +510,7 @@ button:not(:disabled) {
     min-width: 0;
     position: relative;
     width: 1%;
-    background: #6fd0f0 !important;
+    background: #3b7ddd !important;
     padding: 5px;
     margin-top: 10px;
 }
@@ -521,7 +521,7 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
     black-space: nowrap;
-    background: #6fd0f0 !important;
+    background: #3b7ddd !important;
 }
 
 option:focus-visible {

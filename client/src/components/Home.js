@@ -153,35 +153,35 @@ const Home = () => {
                             <ProductCard
                                 product_image={b2}
                                 product_type={0}
-                                plan_cycle={40}
-                                plan_amount={499}
-                                plan_daily_earning={110}
+                                plan_cycle={90}
+                                plan_amount={600}
+                                plan_daily_earning={180}
                                 pre_sale={false}
                             />
 
                             <ProductCard
                                 product_image={b3}
                                 product_type={0}
-                                plan_cycle={40}
-                                plan_amount={1400}
-                                plan_daily_earning={400}
+                                plan_cycle={90}
+                                plan_amount={1500}
+                                plan_daily_earning={460}
                                 pre_sale={false}
                             />
 
                             <ProductCard
                                 product_image={b4}
                                 product_type={0}
-                                plan_cycle={40}
-                                plan_amount={4000}
-                                plan_daily_earning={900}
+                                plan_cycle={90}
+                                plan_amount={4200}
+                                plan_daily_earning={1210}
                                 pre_sale={false}
                             />
 
                             <ProductCard
                                 product_image={b1}
                                 product_type={0}
-                                plan_cycle={40}
-                                plan_amount={12000}
+                                plan_cycle={90}
+                                plan_amount={16000}
                                 plan_daily_earning={3500}
                                 pre_sale={true}
                             />
@@ -203,9 +203,9 @@ const Home = () => {
                             <ProductCard
                                 product_image={b1}
                                 product_type={1}
-                                plan_cycle={1}
-                                plan_amount={250}
-                                plan_daily_earning={350}
+                                plan_cycle={3}
+                                plan_amount={410}
+                                plan_daily_earning={290}
                                 pre_sale={false}
                             />
 

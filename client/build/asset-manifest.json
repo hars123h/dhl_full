@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cfc9d81.css",
+    "main.css": "/static/css/main.1e91d5dc.css",
     "main.js": "/static/js/main.14a88ae8.js",
     "static/media/app-release.apk": "/static/media/app-release.229195abbd2dec13430b.apk",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
@@ -65,11 +65,11 @@
     "static/media/notch_L.svg": "/static/media/notch_L.feb55842068c37a4c500535b0332e819.svg",
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
-    "main.9cfc9d81.css.map": "/static/css/main.9cfc9d81.css.map",
+    "main.1e91d5dc.css.map": "/static/css/main.1e91d5dc.css.map",
     "main.14a88ae8.js.map": "/static/js/main.14a88ae8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cfc9d81.css",
+    "static/css/main.1e91d5dc.css",
     "static/js/main.14a88ae8.js"
   ]
 }
