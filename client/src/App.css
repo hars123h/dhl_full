@@ -2,7 +2,7 @@
     transition: height .3s;
     position: relative;
     z-index: 1;
-    background: #3b7ddd;
+    background: white;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     width: 90%;
@@ -10,7 +10,7 @@
     border-radius: 14px;
     /* margin-top: -100px; */
     padding: 16px 12px;
-    border: 1px solid #3b7ddd;
+    border: 1px solid white;
 }
 
 .verfy_title {
@@ -99,8 +99,8 @@
 }
 
 nav {
-    background-color: #3b7ddd;
-    border-top: 1px solid #3b7ddd;
+    background-color: white;
+    border-top: 1px solid white;
     height: 55px !important;
 }
 
@@ -154,7 +154,7 @@ nav {
 }
 
 .nav-link {
-    color: #6fd0f0;
+    color: #3b7ddd;
     display: block;
     padding: 0.5rem 1rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
@@ -165,7 +165,7 @@ nav {
 }
 
 .btnfix a {
-    background-color: #3b7ddd;
+    background-color: white;
     border: medium none;
     color: black;
     float: left;
@@ -204,8 +204,8 @@ nav {
 }
 
 .customborder {
-    border: 1px solid #3b7ddd;
-    background-color: #3b7ddd;
+    border: 1px solid white;
+    background-color: white;
     border-radius: 7px;
     -webkit-box-shadow: 1px 2px 11px 3px #000000;
     box-shadow: 1px 2px 11px 3px #000000;
@@ -255,13 +255,13 @@ tr {
 }
 
 .btn-outline-primary {
-    border-color: #6fd0f0;
-    color: #6fd0f0;
+    border-color: #3b7ddd;
+    color: #3b7ddd;
 }
 
 .btn-primary {
-    background-color: #6fd0f0;
-    border-color: #6fd0f0;
+    background-color: #3b7ddd;
+    border-color: #3b7ddd;
     color: #fff;
 }
 
@@ -342,7 +342,7 @@ tr {
 }
 
 .progress-bar {
-    background-color: #6fd0f0;
+    background-color: #3b7ddd;
     color: #fff;
     flex-direction: column;
     justify-content: center;
@@ -469,7 +469,7 @@ button:not(:disabled) {
 }
 
 .nav-link {
-    color: #6fd0f0;
+    color: #3b7ddd;
     display: block;
     padding: 0.5rem 1rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
@@ -510,7 +510,7 @@ button:not(:disabled) {
     min-width: 0;
     position: relative;
     width: 1%;
-    background: #3b7ddd !important;
+    background: white !important;
     padding: 5px;
     margin-top: 10px;
 }
@@ -521,7 +521,7 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
     black-space: nowrap;
-    background: #3b7ddd !important;
+    background: white !important;
 }
 
 option:focus-visible {
