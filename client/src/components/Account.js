@@ -135,10 +135,10 @@ const Account = () => {
                             </div>
                             <div className="row justify-between">
                                 <div className="" style={{ width: '50%' }}>
-                                    <Link to={'/widthdrawlrecords'} className="btn btn-outline-primary w-full text-black" style={{ color: 'white' }} >Withdrawal</Link>
+                                    <Link to={'/widthdrawlrecords'} className="btn btn-outline-primary w-full text-black" style={{ color: 'white',background:'black' }} >Withdrawal</Link>
                                 </div>
                                 <div className="w-1/2" style={{ width: '50%' }}>
-                                    <Link to={'/deposit'} className="btn btn-primary w-full" >Recharge</Link>
+                                    <Link to={'/deposit'} className="btn btn-primary w-full bg-black" style={{background:"black"}} >Recharge</Link>
                                 </div>
                             </div>
                         </div>
