@@ -1,7 +1,7 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import s1 from '../images/btc/s1.png';
+import s1 from '../images/btc/s1.jpg';
 import s2 from '../images/btc/s2.jpg';
 import s3 from '../images/btc/s3.jpg';
 import s4 from '../images/btc/s4.png';

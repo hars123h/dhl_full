@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.00e42fe4.css",
-    "main.js": "/static/js/main.59093d45.js",
+    "main.css": "/static/css/main.b5033607.css",
+    "main.js": "/static/js/main.87465c40.js",
     "static/media/app-release.apk": "/static/media/app-release.229195abbd2dec13430b.apk",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
     "static/media/g1.jpg": "/static/media/g1.191c00ffc2d45aabb3ad.jpg",
-    "static/media/s2.jpg": "/static/media/s2.ebb1b2a25ada6e2da20e.jpg",
     "static/media/aboutimg2.jpg": "/static/media/aboutimg2.d2345c55e470b951a7db.jpg",
     "static/media/invitebg.png": "/static/media/invitebg.8e9d34d2df9aae0268a6.png",
     "static/media/301.png": "/static/media/301.a79adc35e5edf1db03c2.png",
@@ -22,16 +21,18 @@
     "static/media/g9.png": "/static/media/g9.3aac741dcd8017c728cf.png",
     "static/media/imgriti.png": "/static/media/imgriti.a52efd66beec6a590380.png",
     "static/media/qr.jpeg": "/static/media/qr.fe707f3022a353ff9ace.jpeg",
-    "static/media/s3.jpg": "/static/media/s3.3f91b5db4850392b481b.jpg",
     "static/media/bankaccountimg.png": "/static/media/bankaccountimg.0ca5b72f1a5b4a24c6cc.png",
     "static/media/g5.jpg": "/static/media/g5.45244ef86319c8307669.jpg",
     "static/media/aboutusimg.jpg": "/static/media/aboutusimg.6fbbe81260c65f3c8133.jpg",
     "static/media/b1.jpg": "/static/media/b1.780219f9388e138ce23f.jpg",
+    "static/media/s3.jpg": "/static/media/s3.5e56aa180073f88720b3.jpg",
     "static/media/b2.png": "/static/media/b2.c2988a1dd4d29bf8ebff.png",
+    "static/media/s2.jpg": "/static/media/s2.94017c6eebf8e1ff7595.jpg",
     "static/media/cardimg.jpg": "/static/media/cardimg.22d89214a1e71968111f.jpg",
     "static/media/g4.jpg": "/static/media/g4.eddb62ee3382aaa473c9.jpg",
     "static/media/04.png": "/static/media/04.0f7d685a7b8ca4c6dcc0.png",
     "static/media/02.svg": "/static/media/02.d5b04926ec216d2808ef37a13d224d23.svg",
+    "static/media/s1.jpg": "/static/media/s1.76fe635b6511b2ff1c3d.jpg",
     "static/media/s5.jpg": "/static/media/s5.5b5746f38e6b6e4e36b0.jpg",
     "static/media/g3.jpg": "/static/media/g3.e95da623a881278493a0.jpg",
     "static/media/giftimg.png": "/static/media/giftimg.ad4e36c9a749c50553f8.png",
@@ -65,11 +66,11 @@
     "static/media/notch_L.svg": "/static/media/notch_L.feb55842068c37a4c500535b0332e819.svg",
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
-    "main.00e42fe4.css.map": "/static/css/main.00e42fe4.css.map",
-    "main.59093d45.js.map": "/static/js/main.59093d45.js.map"
+    "main.b5033607.css.map": "/static/css/main.b5033607.css.map",
+    "main.87465c40.js.map": "/static/js/main.87465c40.js.map"
   },
   "entrypoints": [
-    "static/css/main.00e42fe4.css",
-    "static/js/main.59093d45.js"
+    "static/css/main.b5033607.css",
+    "static/js/main.87465c40.js"
   ]
 }
