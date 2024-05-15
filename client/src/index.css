@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(to left bottom, #6fd0f0, #6fd0f0, #6fd0f0, #6fd0f0, #6fd0f0);
+  background-image: linear-gradient(to left bottom, #3b7ddd, #3b7ddd, #3b7ddd, #3b7ddd, #3b7ddd);
 }
 
 * {
@@ -71,7 +71,7 @@ input:-webkit-autofill {
 /* Style for focus state */
 input:focus {
   outline: none;
-  border-color: #6fd0f0; /* Change border color on focus */
+  border-color: #3b7ddd; /* Change border color on focus */
 }
 
 @tailwind base;
