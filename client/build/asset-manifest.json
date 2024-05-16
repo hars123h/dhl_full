@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5033607.css",
-    "main.js": "/static/js/main.aefe9dee.js",
-    "static/media/app-release.apk": "/static/media/app-release.229195abbd2dec13430b.apk",
+    "main.css": "/static/css/main.b5a9c46c.css",
+    "main.js": "/static/js/main.0dd5cc24.js",
+    "static/media/app-release.apk": "/static/media/app-release.8389d6befaeb507b48ca.apk",
     "static/media/s4.png": "/static/media/s4.15286c8476481a9a3e64.png",
     "static/media/g1.jpg": "/static/media/g1.191c00ffc2d45aabb3ad.jpg",
     "static/media/aboutimg2.jpg": "/static/media/aboutimg2.d2345c55e470b951a7db.jpg",
@@ -66,11 +66,11 @@
     "static/media/notch_L.svg": "/static/media/notch_L.feb55842068c37a4c500535b0332e819.svg",
     "static/media/notch_R.svg": "/static/media/notch_R.666d4e5d30fc08386b363b1d70049417.svg",
     "static/media/downarrow.svg": "/static/media/downarrow.36e4a571e29d9fec782d.svg",
-    "main.b5033607.css.map": "/static/css/main.b5033607.css.map",
-    "main.aefe9dee.js.map": "/static/js/main.aefe9dee.js.map"
+    "main.b5a9c46c.css.map": "/static/css/main.b5a9c46c.css.map",
+    "main.0dd5cc24.js.map": "/static/js/main.0dd5cc24.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5033607.css",
-    "static/js/main.aefe9dee.js"
+    "static/css/main.b5a9c46c.css",
+    "static/js/main.0dd5cc24.js"
   ]
 }

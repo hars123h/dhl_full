@@ -188,7 +188,7 @@ const Deposit = () => {
                     <p className="text-black text-center mt-3 mb-4"><small>The minimum recharge amount is  350Rs</small></p>
 
                     <div className="text-center mb-5">
-                        <button onClick={handleRecharge} className="btn btn-primary">Recharge</button>
+                        <button onClick={handleRecharge} className="btn btn-primary" style={{ background: 'black' }}>Recharge</button>
                     </div>
 
                 </div>

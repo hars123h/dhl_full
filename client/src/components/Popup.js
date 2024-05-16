@@ -46,10 +46,10 @@ const Popup = () => {
 
                         <div className="text-[black]">
                             ✅Dear Intel Users Daily New Update Join Our Official Telegram Channel. <br />
-                            🎁EveryDay Free Lifafa 3₹<br />
-                            ✅invite 3 Level Commission 10% 7% 3% Invite friends Get Commission . <br />
+                            🎁EveryDay Free Lifafa 500₹<br />
+                            ✅invite 3 Level Commission 10% 3% 2% Invite friends Get Commission . <br />
                             ✅Buy Any Ordinary Product Get 5% Extra Bonus (Contact Customer Service ) <br />
-                            ✅Withdrawal time 7Am to 4Pm Minimum withdrawal Amount 250rs <br />
+                            ✅Withdrawal time 10Am to 6Pm Minimum withdrawal Amount 150rs <br />
                             👑Vaild Members Vip upgrade Extra Reward 200₹ to 150000₹ 🏆 <br />
                         </div>
 

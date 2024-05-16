@@ -54,8 +54,8 @@ const Widthdrawl = () => {
     withdrawDate.setHours(0, 0, 0, 0)
 
     const isBetween = () => {
-        var startTime = '07:00:00';
-        var endTime = '16:00:00';
+        var startTime = '10:00:00';
+        var endTime = '18:00:00';
 
         var currentDate = new Date()
 
@@ -353,7 +353,7 @@ const Widthdrawl = () => {
                                         <div className="row p-3">
                                             <h6 className="text-black mb-2 px-3 text-sm">Tips</h6>
                                             <ol className="text-black text-sm">
-                                                <li>1. Minimum withdrawal amount is <span className="text-red-400">INR 250</span></li>
+                                                <li>1. Minimum withdrawal amount is <span className="text-red-400">INR 150</span></li>
                                                 <li>2. Personal income tax is <span className="text-red-400">INR 15 %</span></li>
                                                 <li>3. Withdrawal time is 10 am to 5 pm</li>
 

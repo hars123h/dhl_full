@@ -69,7 +69,7 @@ const WidthdrawlRecords = () => {
                     <p className="text-center text-black mb-4">Balance(Rs)</p>
 
                     <div className="text-center mb-3">
-                        <Link style={{ fontSize: '.75rem', padding: '0.15rem 0.5rem', borderRadius: '5px' }} to={'/widthdrawl'} className="btn btn-primary w-fit" >Withdrawal</Link>
+                        <Link style={{ fontSize: '.75rem', padding: '0.15rem 0.5rem', borderRadius: '5px', background: 'black' }} to={'/widthdrawl'} className="btn btn-primary w-fit"  >Withdrawal</Link>
                     </div>
 
 

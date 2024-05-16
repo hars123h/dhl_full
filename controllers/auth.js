@@ -549,14 +549,14 @@ exports.purchase = async (req, res) => {
       { _id: user_data.grand_parent_id },
       {
         $inc: {
-          balance: Number((7 / 100) * Number(investAmount)),
-          indirectRecharge: Number((7 / 100) * Number(investAmount)),
+          balance: Number((3 / 100) * Number(investAmount)),
+          indirectRecharge: Number((3 / 100) * Number(investAmount)),
         },
         $addToSet: {
           // indirectMember: data.user_id,
           comissionData: {
             ...commissionData,
-            comissionAmount: Number((investAmount * 7) / 100),
+            comissionAmount: Number((investAmount * 3) / 100),
             commissionLevel: "Level 2",
           },
         },
@@ -567,14 +567,14 @@ exports.purchase = async (req, res) => {
       { _id: user_data.great_grand_parent_id },
       {
         $inc: {
-          balance: Number((3 / 100) * Number(investAmount)),
-          in_indirectRecharge: Number((3 / 100) * Number(investAmount)),
+          balance: Number((2 / 100) * Number(investAmount)),
+          in_indirectRecharge: Number((2 / 100) * Number(investAmount)),
         },
         $addToSet: {
           // in_indirectMember: data.user_id,
           comissionData: {
             ...commissionData,
-            comissionAmount: Number((investAmount * 3) / 100),
+            comissionAmount: Number((investAmount * 2) / 100),
             commissionLevel: "Level 3",
           },
         },
